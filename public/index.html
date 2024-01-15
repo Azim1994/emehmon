@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />  
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <title>EMehmon</title>
+  </head>
+  <body style="background-color: #F8F8FA;">  
+    <div id="root">
+      <script>
+        const tabs= document.querySelectorAll('.tab-btn');
+        const all_content= document.querySelectorAll('.field-holder');
+  
+        tabs.forEach((tab, index)=>{
+          tab.addEventListener('click', (e)=>{
+            tabs.forEach(tab=>{tab.classList.remove('active')});
+            tab.classList.add('active');
+  
+            var line=document.querySelector('.line');
+          line.style.width = e.target.offsetWidth + "px";
+          line.style.left = e.target.offsetLeft + "px";
+          })
+        })
+      </script>
+      <script>
+        let swiper = new Swiper('.reviewbox',{
+        navigation:{
+            nextEl: ".right",
+            prevEl: ".left"
+        },
+        slidesPerView:2,
+    })
+
+      </script>
+      
+    </div>
+  </body>
+</html>

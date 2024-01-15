@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Onest:wght@100;400;500&display=swap');
+
+.NavbarItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 138px;
+    position: absolute;
+    margin: 0 auto;
+    z-index: 9999;
+    font-family: 'Onest', sans-serif;
+    font-weight: 500;
+    transform: translate(120px);
+    a{
+        color: white;
+
+    }
+}
+
+.NavbarItems:hover{
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.navbar-logo{
+    cursor: pointer;
+    width: 183.58px;
+    height: 48px;
+    position: absolute;
+    display: flex;
+    bottom: 45px;
+}
+
+.logo-header{
+    width: 183.58px;
+    height: 48px;
+    margin: 0 auto;
+}
+
+.nav-menu{
+    display: grid;
+    position: relative;
+    white-space: nowrap;
+    width: 366px;
+    height: 22px;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 24px;
+    list-style: none;
+    align-items: center;
+    font-size: 14px;
+    text-align: center;
+    left: 169.21px;
+}
+
+.nav-menu a{
+    text-decoration: none;
+}
+
+.nav-menu1{
+    display: grid;
+    position: relative;
+    left: 72.21px;
+    width: 312px;
+    height: 58px;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 24px;
+    list-style: none;
+}
+
+.btn1{
+    background: none;
+    border: none;
+    font-size: 14px;
+    height: 22px;
+    width: 54px;
+    cursor: pointer;
+    display: grid;
+}
+
+.btn1 a{
+    text-decoration: none;
+}
+
+.wrapper1{
+    height: 22px;
+    width: 60px;
+    display: flex;
+    transform: translate(15px, 21px);
+}
+
+.btn2{
+    background: none;
+    border: none;
+    font-size: 14px;
+    height: 22px;
+    width: 81px;
+    cursor: pointer;
+    display: flex;
+}
+
+.btn2 a{
+    text-decoration: none;
+}
+
+.wrapper2{
+    height: 22px;
+    width: 75px;
+    display: flex;
+    transform: translate(15px, 21px);
+}
+
+.btn3{
+    background: #232E40;
+    background-size: 30%;
+    font-size: 16px;
+    height: 58px;
+    width: 129px;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    transform: translate(18px, 0px);
+}
+
+.btn3 a{
+    text-decoration: none;
+}
+
+.wrapper3{
+    height: 26px;
+    width: 49px;
+    padding-top: 19px;
+    padding-right: 68px;
+}
+
+.imgsignin{
+    height: 20px;
+    width: 20px;
+    margin: auto;
+    top: 50%;
+    left: 30%;
+    transform: translate(30%, -2%);
+}
