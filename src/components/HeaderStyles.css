@@ -97,6 +97,7 @@
     text-align: center;
     text-decoration: none;
     position: absolute;
+    cursor: pointer;
 }
 
 .show a{

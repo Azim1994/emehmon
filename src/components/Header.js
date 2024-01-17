@@ -24,7 +24,7 @@ function Header(props) {
           <p>Добро пожаловать на наш уникальный портал, который предоставляет полный спектр услуг для туристов в Узбекистане! </p>
           </div>
           <div className='header-box4'>
-          <button className='show'><a href="/">Все отели</a></button>
+          <button className='show'><a href="Hotels">Все отели</a></button>
           <button className='showvideo'><a href="/">Посмотреть видео</a></button>
           <img src='images/play.png' className='playimage' alt="headerimg"></img>
           </div>

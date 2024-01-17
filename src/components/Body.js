@@ -23,7 +23,14 @@ function Body () {
         scrollContainer.scrollLeft -= 1200;
     });}
 
-    
+    const datas = [
+        { title: 'Hotel Neptun Tashkent Pool&Spa', description: '8 ул. Лянгар, Ташкент', value:'от $120' },
+        { name: 'Горы Кунгурбука', price: 'от $240' }, 
+        { name: 'От Пальтау до Бричмуллы', price: 'от $240' },
+        { name: 'Восхождение на вершину горы Сюрената', price: 'от $240' }, 
+        { name: 'Зааминский горно-арчовый заповедник', price: 'от $240' } 
+    ];
+ 
     return (
     <>
         <div className='bodybox1'>
@@ -65,116 +72,116 @@ function Body () {
             </div>
         </div>
         </div>
-        <div className='bodybox9'>
+            <div className='bodybox9'>
             <div className='bodybox10'>
             <h1>Дома, которые нравятся гостям</h1>
             <p>Упростите свои планы для путешествия - с нами это легко!</p>
             </div>
             <div className='bodybox11'>
-            <div className='card1'>
+                    <div className='card1'>
+                    <div className='cardimage'>
+                        <img src='images/bodyh1.png' alt='bodyh1'></img>
+                    </div>
+                    <div className='cardbar1'>
+                    <h3>{datas[0].title}</h3>
+                    <p>{datas[0].description}</p>
+                    </div>
+                    <div className='cardbar2'>
+                        <button className='reserve'><a href="/">Забронировать</a></button>
+                    <h2>{datas[0].value}</h2><h4>/ночь</h4>
+                    </div>
+                </div>
+                <div className='card2'>
                 <div className='cardimage'>
-                    <img src='images/bodyh1.png' alt='bodyh1'></img>
+                        <img src='images/bodyh2.png' alt='bodyh1'></img>
+                    </div>
+                    <div className='cardbar1'>
+                    <h3>{datas[0].title}</h3>
+                    <p>{datas[0].description}</p>
+                    </div>
+                    <div className='cardbar2'>
+                        <button className='reserve'><a href="/">Забронировать</a></button>
+                    <h2>{datas[0].value}</h2><h4>/ночь</h4>
+                    </div>
                 </div>
-                <div className='cardbar1'>
-                <h3>Hotel Neptun Tashkent Pool&Spa</h3>
-                <p>8 ул. Лянгар, Ташкент</p>
+                <div className='card3'>
+                <div className='cardimage'>
+                        <img src='images/bodyh3.png' alt='bodyh1'></img>
+                    </div>
+                    <div className='cardbar1'>
+                    <h3>{datas[0].title}</h3>
+                    <p>{datas[0].description}</p>
+                    </div>
+                    <div className='cardbar2'>
+                        <button className='reserve'><a href="/">Забронировать</a></button>
+                    <h2>{datas[0].value}</h2><h4>/ночь</h4>
+                    </div>
                 </div>
-                <div className='cardbar2'>
-                    <button className='reserve'><a href="/">Забронировать</a></button>
-                <h2>от $120</h2><h4>/ночь</h4>
+                <div className='card4'>
+                <div className='cardimage'>
+                        <img src='images/bodyh4.png' alt='bodyh1'></img>
+                    </div>
+                    <div className='cardbar1'>
+                    <h3>{datas[0].title}</h3>
+                    <p>{datas[0].description}</p>
+                    </div>
+                    <div className='cardbar2'>
+                        <button className='reserve'><a href="/">Забронировать</a></button>
+                    <h2>{datas[0].value}</h2><h4>/ночь</h4>
+                    </div>
                 </div>
-            </div>
-            <div className='card2'>
-            <div className='cardimage'>
-                    <img src='images/bodyh2.png' alt='bodyh1'></img>
+                <div className='card5'>
+                <div className='cardimage'>
+                        <img src='images/bodyh5.png' alt='bodyh1'></img>
+                    </div>
+                    <div className='cardbar1'>
+                    <h3>{datas[0].title}</h3>
+                    <p>{datas[0].description}</p>
+                    </div>
+                    <div className='cardbar2'>
+                        <button className='reserve'><a href="/">Забронировать</a></button>
+                    <h2>{datas[0].value}</h2><h4>/ночь</h4>
+                    </div>
                 </div>
-                <div className='cardbar1'>
-                <h3>Hotel Neptun Tashkent Pool&Spa</h3>
-                <p>8 ул. Лянгар, Ташкент</p>
+                <div className='card6'>
+                <div className='cardimage'>
+                        <img src='images/bodyh6.png' alt='bodyh1'></img>
+                    </div>
+                    <div className='cardbar1'>
+                    <h3>{datas[0].title}</h3>
+                    <p>{datas[0].description}</p>
+                    </div>
+                    <div className='cardbar2'>
+                        <button className='reserve'><a href="/">Забронировать</a></button>
+                    <h2>{datas[0].value}</h2><h4>/ночь</h4>
+                    </div>
                 </div>
-                <div className='cardbar2'>
-                    <button className='reserve'><a href="/">Забронировать</a></button>
-                <h2>от $120</h2><h4>/ночь</h4>
+                <div className='card7'>
+                <div className='cardimage'>
+                        <img src='images/bodyh1.png' alt='bodyh1'></img>
+                    </div>
+                    <div className='cardbar1'>
+                    <h3>{datas[0].title}</h3>
+                    <p>{datas[0].description}</p>
+                    </div>
+                    <div className='cardbar2'>
+                        <button className='reserve'><a href="/">Забронировать</a></button>
+                    <h2>{datas[0].value}</h2><h4>/ночь</h4>
+                    </div>
                 </div>
-            </div>
-            <div className='card3'>
-            <div className='cardimage'>
-                    <img src='images/bodyh3.png' alt='bodyh1'></img>
+                <div className='card8'>
+                <div className='cardimage'>
+                        <img src='images/bodyh2.png' alt='bodyh1'></img>
+                    </div>
+                    <div className='cardbar1'>
+                    <h3>{datas[0].title}</h3>
+                    <p>{datas[0].description}</p>
+                    </div>
+                    <div className='cardbar2'>
+                        <button className='reserve'><a href="/">Забронировать</a></button>
+                    <h2>{datas[0].value}</h2><h4>/ночь</h4>
+                    </div>
                 </div>
-                <div className='cardbar1'>
-                <h3>Hotel Neptun Tashkent Pool&Spa</h3>
-                <p>8 ул. Лянгар, Ташкент</p>
-                </div>
-                <div className='cardbar2'>
-                    <button className='reserve'><a href="/">Забронировать</a></button>
-                <h2>от $120</h2><h4>/ночь</h4>
-                </div>
-            </div>
-            <div className='card4'>
-            <div className='cardimage'>
-                    <img src='images/bodyh4.png' alt='bodyh1'></img>
-                </div>
-                <div className='cardbar1'>
-                <h3>Hotel Neptun Tashkent Pool&Spa</h3>
-                <p>8 ул. Лянгар, Ташкент</p>
-                </div>
-                <div className='cardbar2'>
-                    <button className='reserve'><a href="/">Забронировать</a></button>
-                <h2>от $120</h2><h4>/ночь</h4>
-                </div>
-            </div>
-            <div className='card5'>
-            <div className='cardimage'>
-                    <img src='images/bodyh5.png' alt='bodyh1'></img>
-                </div>
-                <div className='cardbar1'>
-                <h3>Hotel Neptun Tashkent Pool&Spa</h3>
-                <p>8 ул. Лянгар, Ташкент</p>
-                </div>
-                <div className='cardbar2'>
-                    <button className='reserve'><a href="/">Забронировать</a></button>
-                <h2>от $120</h2><h4>/ночь</h4>
-                </div>
-            </div>
-            <div className='card6'>
-            <div className='cardimage'>
-                    <img src='images/bodyh6.png' alt='bodyh1'></img>
-                </div>
-                <div className='cardbar1'>
-                <h3>Hotel Neptun Tashkent Pool&Spa</h3>
-                <p>8 ул. Лянгар, Ташкент</p>
-                </div>
-                <div className='cardbar2'>
-                    <button className='reserve'><a href="/">Забронировать</a></button>
-                <h2>от $120</h2><h4>/ночь</h4>
-                </div>
-            </div>
-            <div className='card7'>
-            <div className='cardimage'>
-                    <img src='images/bodyh1.png' alt='bodyh1'></img>
-                </div>
-                <div className='cardbar1'>
-                <h3>Hotel Neptun Tashkent Pool&Spa</h3>
-                <p>8 ул. Лянгар, Ташкент</p>
-                </div>
-                <div className='cardbar2'>
-                    <button className='reserve'><a href="/">Забронировать</a></button>
-                <h2>от $120</h2><h4>/ночь</h4>
-                </div>
-            </div>
-            <div className='card8'>
-            <div className='cardimage'>
-                    <img src='images/bodyh2.png' alt='bodyh1'></img>
-                </div>
-                <div className='cardbar1'>
-                <h3>Hotel Neptun Tashkent Pool&Spa</h3>
-                <p>8 ул. Лянгар, Ташкент</p>
-                </div>
-                <div className='cardbar2'>
-                    <button className='reserve'><a href="/">Забронировать</a></button>
-                <h2>от $120</h2><h4>/ночь</h4>
-                </div>
-            </div>
             </div>
         </div>
         <div className='bodybox12'>
@@ -185,20 +192,21 @@ function Body () {
 в Airbnb и начните приключение без слов, станьте частью нашей гостеприимной семьи.</p>
                 <button className='join'><a href="/">Присоединиться</a></button>
             </div>
-        </div>
+        </div>       
         <div className='bodybox14'>
             <h1>Сезонные предложения</h1>
             <button className='back-btn' id="backBtn"><img src='images/prev.png' alt='prev'></img></button>
             <button className='next-btn' id="nextBtn"><img src='images/next.png' alt='next'></img></button> 
-        <div className='gallery'>
+            
+        <div className='gallery'>         
             <div className='scard'>
             <div className='simg'>
                 <span className='discount'><img src='images/discount.png' alt='discount'></img></span>
                 <img src='images/sp1.png' alt='sp1'></img>
             </div>
                 <div className='sinfo'>
-                <h4>Горы Кунгурбука</h4>
-                <p>от $240</p>
+                <h4>{datas[1].name}</h4>
+                <p>{datas[1].price}</p>
                 </div>
             </div>
             <div className='scard'>
@@ -207,8 +215,8 @@ function Body () {
                 <img src='images/sp2.png' alt='sp2'></img>
             </div>
                 <div className='sinfo'>
-                <h4>От Пальтау до Бричмуллы</h4>
-                <p>от $240</p>
+                <h4>{datas[2].name}</h4>
+                <p>{datas[2].price}</p>
                 </div>
             </div>
             <div className='scard'>
@@ -217,8 +225,8 @@ function Body () {
                 <img src='images/sp3.png' alt='sp3'></img>  
             </div>
                 <div className='sinfo'>
-                <h4>Восхождение на вершину горы Сюрената</h4>
-                <p>от $240</p>
+                <h4>{datas[3].name}</h4>
+                <p>{datas[3].price}</p>
                 </div>
             </div>
             <div className='scard'>
@@ -227,8 +235,8 @@ function Body () {
                 <img src='images/sp4.png' alt='sp4'></img>  
             </div>
                 <div className='sinfo'>
-                <h4>Зааминский горно-арчовый заповедник</h4>
-                <p>от $240</p>
+                <h4>{datas[4].name}</h4>
+                <p>{datas[4].price}</p>
                 </div>
             </div>
             <div className='scard'>
@@ -237,8 +245,8 @@ function Body () {
                 <img src='images/sp5.png' alt='sp5'></img>
             </div>
                 <div className='sinfo'>
-                <h4>Горы Кунгурбука</h4>
-                <p>от $240</p>
+                <h4>{datas[1].name}</h4>
+                <p>{datas[1].price}</p>
                 </div>
             </div>
             <div className='scard'>
@@ -247,8 +255,8 @@ function Body () {
                 <img src='images/sp6.png' alt='sp6'></img>
             </div>
                 <div className='sinfo'>
-                <h4>От Пальтау до Бричмуллы</h4>
-                <p>от $240</p>
+                <h4>{datas[2].name}</h4>
+                <p>{datas[2].price}</p>
                 </div>
             </div>
             <div className='scard'>
@@ -257,8 +265,8 @@ function Body () {
                 <img src='images/sp7.png' alt='sp7'></img>  
             </div>
                 <div className='sinfo'>
-                <h4>Восхождение на вершину горы Сюрената</h4>
-                <p>от $240</p>
+                <h4>{datas[3].name}</h4>
+                <p>{datas[3].price}</p>
                 </div>
             </div>
             <div className='scard'>
@@ -267,11 +275,11 @@ function Body () {
                 <img src='images/sp8.png' alt='sp8'></img>  
             </div>
                 <div className='sinfo'>
-                <h4>Зааминский горно-арчовый заповедник</h4>
-                <p>от $240</p>
+                <h4>{datas[4].name}</h4>
+                <p>{datas[4].price}</p>
                 </div>
-            </div>
-        </div>    
+            </div>            
+        </div>
         </div>
     </>
     )

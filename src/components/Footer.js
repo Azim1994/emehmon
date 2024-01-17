@@ -21,7 +21,7 @@ function Footer () {
             <div className='footerbox'>
             <div className='bodybox19'>
                 <div className='logofooter'>
-                    <img src='images/logofooter.jpg' alt='logofooter'></img>
+                <a href="/"><img src='images/logofooter.jpg' alt='logofooter'></img></a>
                 </div>
                 <p>Лучшая платформа для бронирования отелей в Узбекистане</p>
                 <div className='fb'></div>
