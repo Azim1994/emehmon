@@ -76,10 +76,11 @@ const lis=[
                     ))}
                 </ul>
             </div>
-            </div>
             <div className='copyright'>
                 <p>E-Mehmon © 2023. Все права защищены. </p>
             </div>
+            </div>
+            
             </div>
         </div>
     </>

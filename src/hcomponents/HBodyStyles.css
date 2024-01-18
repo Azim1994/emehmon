@@ -5,7 +5,7 @@
     width: 1440px;
     height: 1596px;
     top: 90px;
-    position: absolute;
+    position: relative;
     margin: 0;
     background-color: silver;
 }
@@ -15,7 +15,7 @@
 .h-bodybox9{
     width: 1200px;
     height: 471px;
-    top: 1718px;
+    top: 122px;
     position: relative;
     margin: 0;
     left: 120px;
@@ -197,7 +197,7 @@
     position: relative;
     margin: 0;
     border-radius: 40px;
-    top: 1818px;
+    top: 222px;
 }
 
 .h-bodybox13{
@@ -262,7 +262,7 @@
     position: relative;
     margin: 0;
     display: flex;
-    top: 1918px;
+    top: 322px;
 }
 
 .h-bodybox14 h1{

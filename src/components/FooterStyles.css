@@ -107,7 +107,7 @@
 
 .bodybox19{
     width: 282px;
-    height: 180px;
+    height: 437px;
     position: absolute;
     display: flex;
 }
@@ -274,12 +274,19 @@
     position: absolute;
 }
 
+.copyright{
+    width: 299px;
+    height: 19px;
+    position: absolute;
+    left: 451px;
+    top: 360px;
+    display: flex;
+}
+
 .copyright p{
     width: 299px;
     height: 19px;
     position: relative;
-    top: 418px;
-    left: 571px;
     color: #777E90;
     font-family: 'Onest', sans-serif;
     font-weight: 400;

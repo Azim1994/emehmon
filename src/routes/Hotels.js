@@ -12,7 +12,7 @@ function Hotels () {
           <Container 
           maxWidth={false} 
           style={{
-          height: '4677px',
+          height: '100%',
           width: '1488px',
           padding: '0',
           }}>

@@ -8,6 +8,7 @@ class HNavbar extends Component{
     render(){
         return(
             <div className='hnavbarbox'>
+            <div className='hnavbar'>
             <nav className='hNavbarItems'>
                 <div className='hnavbar-logo'>
                 <a href="/"><img className='hlogo-header' src="images/logofooter.jpg" alt="logoheader" /></a>
@@ -35,6 +36,7 @@ class HNavbar extends Component{
                     </div>
                 </ul>
             </nav>
+            </div>
             </div>
         )
     }

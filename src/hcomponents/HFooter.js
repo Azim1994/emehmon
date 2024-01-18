@@ -1,7 +1,7 @@
 import './HFooterStyles.css'
 import HFooterslider from './HSwiper';
 
-function Footer () {
+function HFooter () {
     
     return (
     <>
@@ -57,10 +57,11 @@ function Footer () {
                     <li><a href="/">Управлять бронированиями</a></li>
                 </ul>
             </div>
-            </div>
             <div className='h-copyright'>
                 <p>E-Mehmon © 2023. Все права защищены. </p>
             </div>
+            </div>
+            
             </div>
         </div>
     </>
@@ -68,4 +69,4 @@ function Footer () {
 }
 
 
-export default Footer;
+export default HFooter;

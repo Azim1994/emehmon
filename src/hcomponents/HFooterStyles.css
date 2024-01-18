@@ -4,7 +4,7 @@
 .h-bodybox16{
     width: 100%;
     height: 585px;
-    top: 3361px;
+    top: 3360px;
     left: 0;
     position: absolute;
     display: flex;
@@ -99,7 +99,7 @@
 
 .h-footerbox{
     width: 1200px;
-    height: 238px;
+    height: 437px;
     top: 60px;
     position: absolute;
     display: flex;
@@ -259,12 +259,19 @@
     position: absolute;
 }
 
+.h-copyright{
+    width: 299px;
+    height: 19px;
+    position: absolute;
+    left: 451px;
+    top: 360px;
+    display: flex;
+}
+
 .h-copyright p{
     width: 299px;
     height: 19px;
-    position: relative;
-    top: 418px;
-    left: 571px;
+    position: absolute;
     color: #777E90;
     font-family: 'Onest', sans-serif;
     font-weight: 400;
