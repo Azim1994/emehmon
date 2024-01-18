@@ -1,7 +1,8 @@
-import Navbar from '../hcomponents/hNavbar';
+import HNavbar from '../hcomponents/HNavbar';
 import {Container} from '@mui/material'
 import Box from '@mui/material/Box';
-
+import HBody from '../hcomponents/HBody'
+import HFooter from '../hcomponents/HFooter'
 
 
 function Hotels () {
@@ -11,12 +12,13 @@ function Hotels () {
           <Container 
           maxWidth={false} 
           style={{
-          height: '5200px',
+          height: '4677px',
           width: '1488px',
           padding: '0',
           }}>
-          <Navbar />
-                      
+          <HNavbar />
+          <HBody /> 
+          <HFooter />           
           </Container>
           </Box>
         </>

@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Onest:wght@100;400;500&display=swap');
 @import url('https://fonts.cdnfonts.com/css/forma-djr-banner');
 
-.bodybox16{
+.h-bodybox16{
     width: 100%;
     height: 585px;
-    top: 4118px;
+    top: 3361px;
     left: 0;
     position: absolute;
     display: flex;
@@ -12,7 +12,7 @@
     background-color: rgba(35, 46, 64, 0.9);
 }
 
-.bodybox17{
+.h-bodybox17{
     width: 1506px;
     height: 425px;
     left: 120px;
@@ -21,7 +21,7 @@
     display: flex;
 }
 
-.titlebox{
+.h-titlebox{
     width: 1200px;
     height: 45px;
     display: flex;
@@ -29,7 +29,7 @@
     top: 0;
 }
 
-.titlebox h1{
+.h-titlebox h1{
     font-family: 'Forma DJR Banner', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -78,10 +78,10 @@
     border-color: rgba(183, 191, 213, 0.2);
 }
 
-.bodybox18{
+.h-bodybox18{
     width: 100%;
     height: 497px;
-    top: 4703px;
+    top: 3946px;
     left: 0;
     position: absolute;
     display: flex;
@@ -89,7 +89,7 @@
     background-color: #F8F8FA;
 }
 
-.footercontent{
+.h-footercontent{
     width: 1506px;
     height: 497px;
     left: 120px;
@@ -97,7 +97,7 @@
     display: flex;
 }
 
-.footerbox{
+.h-footerbox{
     width: 1200px;
     height: 238px;
     top: 60px;
@@ -105,37 +105,22 @@
     display: flex;
 }
 
-.bodybox19{
+.h-bodybox19{
     width: 282px;
     height: 180px;
     position: absolute;
     display: flex;
 }
 
-.logofooter{
+.h-logofooter{
     width: 183.58px;
     height: 48px;
     position: absolute;
     cursor: pointer;
     display: flex;
-    background-color: #F8F8FA;
 }
 
-.logo{
-    width: 48px;
-    height: 48px;
-    position: absolute;
-}
-
-.emehmon{
-    width: 122px;
-    height: 18px;
-    position: absolute;
-    top: 15.82px;
-    left: 61.9px;
-}
-
-.bodybox19 p{
+.h-bodybox19 p{
     width: 282px;
     height: 44px;
     top: 64px;
@@ -148,7 +133,7 @@
     color: #777E90;
 }
 
-.fb{
+.h-fb{
     width: 24px;
     height: 24px;
     top: 156px;
@@ -158,7 +143,7 @@
     background-image: url(/public/images/fb.jpg);
 }
 
-.insta{
+.h-insta{
     width: 24px;
     height: 24px;
     top: 156px;
@@ -169,7 +154,7 @@
     background-image: url(/public/images/insta.jpg);
 }
 
-.tg{
+.h-tg{
     width: 24px;
     height: 24px;
     top: 156px;
@@ -180,7 +165,7 @@
     background-image: url(/public/images/tg.jpg);
 }
 
-.bodybox20{
+.h-bodybox20{
     width: 82px;
     height: 143px;
     top: 64px;
@@ -190,7 +175,7 @@
     display: flex;
 }
 
-.list{
+.h-list{
     position: relative;
     white-space: nowrap;
     display: grid;
@@ -199,7 +184,7 @@
     gap: 12px;
 }
 
-.list a{
+.h-list a{
     font-family: 'Onest', sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -209,7 +194,7 @@
     cursor: pointer;
 }
 
-.bodybox21{
+.h-bodybox21{
     width: 175px;
     height: 174px;
     top: 64px;
@@ -219,7 +204,7 @@
     display: flex;
 }
 
-.list1{
+.h-list1{
     position: relative;
     white-space: nowrap;
     display: grid;
@@ -228,7 +213,7 @@
     gap: 12px;
 }
 
-.list1 a{
+.h-list1 a{
     font-family: 'Onest', sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -238,7 +223,7 @@
     cursor: pointer;
 }
 
-.bodybox22{
+.h-bodybox22{
     width: 234px;
     height: 174px;
     top: 64px;
@@ -248,7 +233,7 @@
     display: flex;
 }
 
-.list2{
+.h-list2{
     position: relative;
     white-space: nowrap;
     display: grid;
@@ -257,7 +242,7 @@
     gap: 12px;
 }
 
-.list2 a{
+.h-list2 a{
     font-family: 'Onest', sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -267,14 +252,14 @@
     cursor: pointer;
 }
 
-.footerline{
+.h-footerline{
     border: 1px solid #B7BFD5;
     opacity: 20%;
     top: 358px;
     position: absolute;
 }
 
-.copyright p{
+.h-copyright p{
     width: 299px;
     height: 19px;
     position: relative;
@@ -286,18 +271,4 @@
     font-size: 15px;
     line-height: 19.12px;
     text-wrap: nowrap;
-}
-
-.slick-arrow slick-prev{
-    width: 44px;
-    height: 44px;
-    left: 1096px;
-    margin: 0;
-    display: flex;
-    position: absolute;
-    border: none;
-    align-items: center;
-    cursor: pointer;
-    background: none;
-    border-radius: 24px;
 }

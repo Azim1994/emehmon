@@ -1,275 +1,100 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Onest:wght@100;400;500&display=swap');
 @import url('https://fonts.cdnfonts.com/css/forma-djr-banner');
 
-.bodybox1{
-    width: 1098px;
-    height: 770px;
-    top: 252px;
-    position: relative;
-    margin: 0;
-    left: 120px;
-    display: flex;
-}
-
-.bodybox2{
-    width: 818px;
-    height: 86px;
-    position: absolute;
-    margin: 0 auto;
-    left: 191px;
-    align-items: center;
-    justify-content: center;
-    display: block;
-}
-
-.bodybox2 h1{
-    font-family: 'Forma DJR Banner', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    color: #232E40;
-    line-height: 44.8px;
-    text-align: center;
-    letter-spacing: 2%;
-    text-wrap: nowrap;
-}
-
-.bodybox2 p{
-    font-family: 'Onest', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25.2px;
-    text-align: center;
-    color: #777E90;
-    letter-spacing: 2%;
-    text-wrap: nowrap;
-}
-
-.bodybox3{
-    width: 1098px;
-    height: 644px;
-    top: 126px;
-    position: relative;
-    margin: 0;
-}
-
-.bodybox4{
-    width: 572px;
-    height: 644px;
-    position: relative;
-    margin: 0;
-}
-
-.body1{
-    width: 453px;
-    height: 644px;
-    left: 85px;
-    margin: 0;
-    border-radius: 24px;
-    position: relative;
-}
-
-.aziza{
-    width: 208px;
-    height: 80px;
-    top: 42px;
-    left: 23px;
-    border-radius: 16px;
-    position: absolute;
-    background-color: white;
-}
-
-.avatar{
-    top: 18px;
-    left: 18px;
-}
-
-.aziza h4{
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 12px;
-    line-height: 14.52px;
-    width: 99px;
-    height: 15px;
-    margin: 0;
-    position: relative;
-    top: 20.5px;
-    left: 78px;
-}
-
-.stars1{
-    width: 112px;
-    height: 16px;
-    margin: 0;
-    position: relative;
-    top: 26.5px;
-    left: 78px;
-}
-
-.andrey{
-    width: 208px;
-    height: 80px;
-    top: 172px;
-    left: 364px;
-    border-radius: 16px;
-    position: absolute;
-    background-color: white;
-}
-
-.andrey h4{
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 12px;
-    line-height: 14.52px;
-    width: 99px;
-    height: 15px;
-    margin: 0;
-    position: relative;
-    top: 20.5px;
-    left: 78px;
-    text-wrap: nowrap;
-}
-
-.body2{
-    width: 364px;
-    height: 256px;
-    top: 298px;
-    border-radius: 24px;
-    border: 10px white;
-    position: absolute;
-}
-
-.bodybox5{
-    width: 486px;
-    height: 528px;
-    top: 58px;
-    left: 612px;
+.hheader-box{
+    width: 1440px;
+    height: 1596px;
+    top: 90px;
     position: absolute;
     margin: 0;
-    display: grid;
+    background-color: silver;
 }
 
-.bodybox6{
-    width: 486px;
-    height: 152px;
-    position: relative;
-}
 
-.number{
-    width: 46px;
-    height: 34px;
-    border-radius: 12px;
-    margin: 0;
-    padding: 6px 12px 6px 12px;
-    font-family: 'Onest', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21.6px;
-    background-color: rgba(50, 118, 255, 0.2);
-    color: #3276FF;
-}
 
-.bodybox6 h3{
-    font-family: 'Forma DJR Banner', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    color: #232E40;
-    line-height: 21.6px;
-    position: relative;
-    top: -10px;
-}
-
-.bodybox6 p{
-    font-family: 'Onest', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #777E90;
-    line-height: 24px;
-    position: relative;
-    top: -16px;
-}
-
-.bodybox9{
+.h-bodybox9{
     width: 1200px;
-    height: 978px;
-    top: 352px;
+    height: 471px;
+    top: 1718px;
     position: relative;
     margin: 0;
     left: 120px;
     display: flex;
 }
 
-.bodybox10{
+.h-bodybox10{
     width: 700px;
-    height: 86px;
+    height: 45px;
     position: absolute;
-    margin: 0 auto;
-    left: 250px;
-    align-items: center;
-    justify-content: center;
-    display: block;
+    margin: 0;
+    display: flex;
+    top: 0;
+    left: 0;
 }
 
-.bodybox10 h1{
+.h-bodybox10 h1{
     font-family: 'Forma DJR Banner', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     color: #232E40;
     line-height: 44.8px;
-    text-align: center;
+    text-align: left;
     letter-spacing: 2%;
     text-wrap: nowrap;
 }
 
-.bodybox10 p{
-    font-family: 'Onest', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25.2px;
-    text-align: center;
-    color: #777E90;
-    letter-spacing: 2%;
-    text-wrap: nowrap;
-}
-
-.bodybox11{
+.h-bodybox11{
     width: 1200px;
-    height: 852px;
-    top: 126px;
-    position: relative;
+    height: 410px;
+    top: 61px;
+    position: absolute;
     margin: 0;
     display: flex;
 }
 
-.grid {
-    width: 1200px;
-    height: 852px;
-    display: grid;
-    gap: 24px;
-    position: relative;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.card1{
+.h-card1{
     width: 282px;
     height: 410px;
-    position: inherit;
+    position: absolute;
     margin: 0;
     display: flex;
 }
 
-.cardimage{
+.h-card2{
     width: 282px;
-    height: 282px;
-    position: relative;
+    height: 410px;
+    left: 306px;
+    position: absolute;
+    display: flex;
+    margin: 0;
 }
 
-.cardbar1{
+.h-card3{
+    width: 282px;
+    height: 410px;
+    left: 612px;
+    position: absolute;
+    display: flex;
+    margin: 0;
+}
+
+.h-card4{
+    width: 282px;
+    height: 410px;
+    left: 918px;
+    position: absolute;
+    display: flex;
+    margin: 0;
+}
+
+.h-cardimage{
+    width: 282px;
+    height: 282px;
+    position: absolute;
+}
+
+.h-cardbar1{
     width: 282px;
     height: 46px;
     top: 294px;
@@ -277,7 +102,7 @@
     position: absolute;
 }
 
-.cardbar1 h3{
+.h-cardbar1 h3{
     font-family: 'Onest', sans-serif;
     font-weight: 700;
     font-size: 16px;
@@ -288,7 +113,7 @@
     display: flex;
 }
 
-.cardbar1 p{
+.h-cardbar1 p{
     font-family: 'Onest', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -299,7 +124,7 @@
     top: 26px;
 }
 
-.cardbar2{
+.h-cardbar2{
     width: 282px;
     height: 58px;
     top: 352px;
@@ -307,7 +132,7 @@
     position: absolute;
 }
 
-.cardbar2 h2{
+.h-cardbar2 h2{
     font-family: 'Onest', sans-serif;
     font-weight: 700;
     font-size: 16px;
@@ -324,7 +149,7 @@
     top: 18px;
 }
 
-.cardbar2 h4{
+.h-cardbar2 h4{
     font-family: 'Onest', sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -341,7 +166,7 @@
     left: 16px;
 }
 
-.reserve{
+.h-reserve{
     cursor: pointer;
     width: 172px;
     height: 58px;
@@ -355,7 +180,7 @@
     border: none;
 }
 
-.reserve a{
+.h-reserve a{
     color: #3276FF;
     font-family: 'Onest', sans-serif;
     font-weight: 500;
@@ -365,17 +190,17 @@
     width: 172px;
 }
 
-.bodybox12{
+.h-bodybox12{
     width: 1200px;
     height: 408px;
     left: 120px;
     position: relative;
     margin: 0;
     border-radius: 40px;
-    top: 453px;
+    top: 1818px;
 }
 
-.bodybox13{
+.h-bodybox13{
     width: 630px;
     height: 288px;
     left: 80px;
@@ -385,7 +210,7 @@
     display: flex;
 }
 
-.bodybox13 h1{
+.h-bodybox13 h1{
     font-family: 'Forma DJR Banner', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -395,7 +220,7 @@
     letter-spacing: 2%;
 }
 
-.bodybox13 p{
+.h-bodybox13 p{
     font-family: 'Onest', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -408,7 +233,7 @@
     margin: 0;
 }
 
-.join{
+.h-join{
     top: 230px;
     width: 183px;
     height: 58px;
@@ -422,7 +247,7 @@
     cursor: pointer;
 }
 
-.join a{
+.h-join a{
     font-family: 'Onest', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -430,17 +255,17 @@
     color: white;
 }
 
-.bodybox14{
+.h-bodybox14{
     width: 1200px;
     height: 463px;
     left: 120px;
     position: relative;
     margin: 0;
     display: flex;
-    top: 553px;
+    top: 1918px;
 }
 
-.bodybox14 h1{
+.h-bodybox14 h1{
     font-family: 'Forma DJR Banner', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -453,7 +278,7 @@
     margin: 0;
 }
 
-.back-btn{
+.h-back-btn{
     width: 44px;
     height: 44px;
     margin: 0;
@@ -467,12 +292,12 @@
     border-radius: 24px;
 }
 
-.back-btn:hover{
+.h-back-btn:hover{
     border: 1px solid;
     border-color: rgba(183, 191, 213, 0.2);
 }
 
-.next-btn{
+.h-next-btn{
     width: 44px;
     height: 44px;
     left: 1156px;
@@ -486,12 +311,12 @@
     border-radius: 24px;
 }
 
-.next-btn:hover{
+.h-next-btn:hover{
     border: 1px solid;
     border-color: rgba(183, 191, 213, 0.2);
 }
 
-.gallery{
+.h-gallery{
     width: 1200px;
     height: 378px;
     position: absolute;
@@ -503,25 +328,25 @@
     pointer-events: none;   
 }
 
-.gallery::-webkit-scrollbar{
+.h-gallery::-webkit-scrollbar{
     display: none;
 }
 
-.scard{
+.h-scard{
     width: 282px;
     height: 378px;
     margin: 0;
     flex: none;
 }
 
-.simg{
+.h-simg{
     width: 282px;
     height: 282px;
     margin: 0;
     position: relative;
 }
 
-.discount{
+.h-discount{
     width: 101px;
     height: 36px;
     top: 12px;
@@ -530,7 +355,7 @@
     position: absolute;
 }
 
-.sinfo h4{
+.h-sinfo h4{
     font-family: 'Onest', sans-serif;
     font-weight: 600;
     font-size: 18px;
@@ -542,7 +367,7 @@
     width: 273px;
 }
 
-.sinfo p{
+.h-sinfo p{
     font-family: 'Onest', sans-serif;
     font-weight: 600;
     font-size: 16px;

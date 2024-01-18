@@ -1,10 +1,10 @@
 import { Component } from 'react';
-import './hNavbarStyles.css';
+import './HNavbarStyles.css';
 import 'semantic-ui-css/semantic.min.css'
 import { FaChevronDown } from "react-icons/fa";
 
 
-class Navbar extends Component{
+class HNavbar extends Component{
     render(){
         return(
             <div className='hnavbarbox'>
@@ -40,4 +40,4 @@ class Navbar extends Component{
     }
 }
 
-export default Navbar;
+export default HNavbar;

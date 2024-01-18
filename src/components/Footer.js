@@ -2,6 +2,32 @@ import './FooterStyles.css'
 import Footerslider from './Swiper';
 
 function Footer () {
+
+const items=[
+    {name:"Регионы",path:'/regions'},
+    {name:"Города",path:'/cities'},
+    {name:"Районы",path:'/districts'},
+    {name:"Аэропорты",path:'/aeroports'},
+    {name:"Ориентиры",path:'/guides'},
+]
+
+const lists=[
+    {name:"Отели",path:'/hotels'},
+    {name:"Дома и апартаменты",path:'/housesapp'},
+    {name:"Апартаменты/квартиры",path:'/appartments'},
+    {name:"Курортные отели",path:'/relaxhot'},
+    {name:"Хостелы",path:'/hostels'},
+    {name:"Гостевые дома",path:'/guesthouses'},
+]
+
+const lis=[
+        {name:"Уникальное жилье",path:'/uniqueplaces'},
+        {name:"Отзывы",path:'/reviews'},
+        {name:"Сообщество путешественников",path:'/travelersclub'},
+        {name:"Сезонные спецпредложения",path:'/seasonhot'},
+        {name:"Поиск автомобилей",path:'/carsearch'},
+        {name:"Управлять бронированиями",path:'/reservations'},
+]
     
     return (
     <>
@@ -21,7 +47,8 @@ function Footer () {
             <div className='footerbox'>
             <div className='bodybox19'>
                 <div className='logofooter'>
-                <a href="/"><img src='images/logofooter.jpg' alt='logofooter'></img></a>
+                <div className='logo'><a href="/"><img src='images/logo.png' alt='logo'></img></a></div>
+                <div className='emehmon'><a href="/"><img src='images/emehmon.png' alt='emehmon'></img></a></div>
                 </div>
                 <p>Лучшая платформа для бронирования отелей в Узбекистане</p>
                 <div className='fb'></div>
@@ -30,31 +57,23 @@ function Footer () {
             </div>
             <div className='bodybox20'>
                 <ul className='list'>
-                    <li><a href="/">Регионы</a></li>
-                    <li><a href="/">Города</a></li>
-                    <li><a href="/">Районы</a></li>
-                    <li><a href="/">Аэропорты</a></li>
-                    <li><a href="/">Ориентиры</a></li>
-                </ul>
-            </div>
+            {items.map((val)=>(
+                    <li><a href={val.path}>{val.name}</a></li>
+                    ))}
+                    </ul>
+                </div>
             <div className='bodybox21'>
                 <ul className='list1'>
-                    <li><a href="/">Отели</a></li>
-                    <li><a href="/">Дома и апартаменты</a></li>
-                    <li><a href="/">Апартаменты/квартиры</a></li>
-                    <li><a href="/">Курортные отели</a></li>
-                    <li><a href="/">Хостелы</a></li>
-                    <li><a href="/">Гостевые дома</a></li>
+                {lists.map((val)=>(
+                    <li><a href={val.path}>{val.name}</a></li>
+                    ))}
                 </ul>
             </div>
             <div className='bodybox22'>
                 <ul className='list2'>
-                    <li><a href="/">Уникальное жилье</a></li>
-                    <li><a href="/">Отзывы</a></li>
-                    <li><a href="/">Сообщество путешественников</a></li>
-                    <li><a href="/">Сезонные спецпредложения</a></li>
-                    <li><a href="/">Поиск автомобилей</a></li>
-                    <li><a href="/">Управлять бронированиями</a></li>
+                {lis.map((val)=>(
+                    <li><a href={val.path}>{val.name}</a></li>
+                    ))}
                 </ul>
             </div>
             </div>

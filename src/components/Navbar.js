@@ -6,16 +6,23 @@ import { FaChevronDown } from "react-icons/fa";
 
 class Navbar extends Component{
     render(){
+
+        const items=[
+            {name:"Найти жилье",path:'/findplace'},
+            {name:"Куда сходить?",path:'/whereto'},
+            {name:"Туры",path:'/tours'},
+            {name:"Транспорт",path:'/transport'}
+]
+
         return(
             <nav className='NavbarItems'>
                 <div className='navbar-logo'>
                     <img className='logo-header' src="images/logoheader.png" alt="logoheader" />
                 </div>
                 <ul className='nav-menu'>
-                    <li><a href="/">Найти желье</a></li>
-                    <li><a href="/">Куда сходить?</a></li>
-                    <li><a href="/">Туры</a></li>
-                    <li><a href="/">Транспорт</a></li>
+                {items.map((nav)=>(
+                    <li><a href={nav.path}>{nav.name}</a></li>
+                    ))}
                 </ul>
                 <ul className='nav-menu1'>
                     <button className='btn1'>
