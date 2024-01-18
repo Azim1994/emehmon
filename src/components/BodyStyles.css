@@ -96,6 +96,7 @@
     position: relative;
     top: 20.5px;
     left: 78px;
+    color: #232E40;
 }
 
 .stars1{
@@ -130,6 +131,7 @@
     top: 20.5px;
     left: 78px;
     text-wrap: nowrap;
+    color: #232E40;
 }
 
 .body2{
