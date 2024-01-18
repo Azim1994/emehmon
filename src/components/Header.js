@@ -13,6 +13,21 @@ function Header(props) {
       setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
     }, []); 
 
+    
+        const tabs= document.querySelectorAll('.tab-btn');
+        const all_content= document.querySelectorAll('.field-holder');
+  
+        tabs.forEach((tab, index)=>{
+          tab.addEventListener('click', (e)=>{
+            tabs.forEach(tab=>{tab.classList.remove('active')});
+            tab.classList.add('active');
+  
+            var line=document.querySelector('.line');
+          line.style.width = e.target.offsetWidth + "px";
+          line.style.left = e.target.offsetLeft + "px";
+          })
+        });
+
     return (<>
       <div className='header'>
         <div className='header-box'>
@@ -97,6 +112,7 @@ function Header(props) {
                     </form>
                   </div>
             </div>
+            
       </div>
       </>
     );

@@ -16,21 +16,7 @@
   </head>
   <body style="background-color: #F8F8FA;">  
     <div id="root">
-      <script>
-        const tabs= document.querySelectorAll('.tab-btn');
-        const all_content= document.querySelectorAll('.field-holder');
-  
-        tabs.forEach((tab, index)=>{
-          tab.addEventListener('click', (e)=>{
-            tabs.forEach(tab=>{tab.classList.remove('active')});
-            tab.classList.add('active');
-  
-            var line=document.querySelector('.line');
-          line.style.width = e.target.offsetWidth + "px";
-          line.style.left = e.target.offsetLeft + "px";
-          })
-        })
-      </script>
+      
       <script>
         let swiper = new Swiper('.reviewbox',{
         navigation:{
