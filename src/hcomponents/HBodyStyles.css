@@ -3,14 +3,453 @@
 
 .hheader-box{
     width: 1440px;
-    height: 1596px;
+    height: 1831px;
     top: 90px;
     position: relative;
-    margin: 0;
-    background-color: silver;
 }
 
+.navtab{
+    width: 492px;
+    height: 24px;
+    top: 30px;
+    left: 122px;
+    position: absolute;
+    display: flex;
+    background-color: black;
+}
 
+.body-title{
+    width: 1200px;
+    height: 45px;
+    top: 84px;
+    left: 120px;
+    position: absolute;
+    display: flex;
+    background-color: lightcoral;
+}
+
+.address{
+    width: 202px;
+    height: 24px;
+    top: 145px;
+    left: 120px;
+    position: absolute;
+    display: flex;
+    background-color: black;
+}
+
+            /* light box style start */
+.lightbox{
+    width: 792px;
+    height: 498px;
+    top: 193px;
+    left: 120px;
+    position: absolute;
+    display: flex;
+    border-radius: 16px;
+    background-color: lightcoral;
+}
+            /* light box style end */
+
+            /* form box style start */
+.form-box{
+    width: 384px;
+    height: 498px;
+    top: 193px;
+    right: 120px;
+    position: absolute;
+    display: flex;
+    border-radius: 16px;
+    background-color: lightcoral;
+}
+            /* form box style end */
+
+            /* map box style start */
+.map{
+    width: 384px;
+    height: 230px;
+    top: 715px;
+    right: 120px;
+    position: absolute;
+    display: flex;
+    border-radius: 16px;
+    background-color: lightblue;
+}
+            /* map box style end */
+
+            /* tab-bar box style start */
+.tab-bar{
+    width: 792px;
+    height: 49px;
+    top: 731px;
+    left: 120px;
+    position: absolute;
+    display: flex;
+    background-color: black;
+}
+            /* tab-bar box style end */
+
+            /* description box style start */
+.description{
+    width: 792px;
+    height: 276px;
+    top: 804px;
+    left: 120px;
+    position: absolute;
+    display: flex;
+}
+
+.description h1{
+    width: 185px;
+    height: 34px;
+    font-family: 'Forma DJR Banner', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #1D2635;
+    line-height: 33.6px;
+    margin: 0;
+    text-wrap: nowrap;
+    position: relative;
+    display: flex;
+    text-align: center;
+}
+
+.description p{
+    width: 780px;
+    height: 194px;
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #1D2635;
+    margin: 0;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    display: flex;
+}
+
+.wrap-it{
+    word-wrap: break-word;
+    width: 780px;
+    height: 80px;
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #1D2635;
+    margin: 0;
+    position: absolute;
+    top: 180px;
+    left: 0;
+    display: flex;
+}
+
+.description-border{
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    width: 792px;
+    position: absolute;
+    border: 1px solid;
+    border-color: #777E90;
+    opacity: 30%;
+}
+            /* description box style end */
+
+            /* comfort box style start */
+.comfort{
+    width: 792px;
+    height: 345px;
+    top: 1112px;
+    left: 120px;
+    position: absolute;
+    display: flex;
+}
+
+.comfort-title{
+    width: 792px;
+    height: 73px;
+    position: absolute;
+    display: flex;
+}
+
+.comfort-title h1{
+    width: 180px;
+    height: 34px;
+    font-family: 'Forma DJR Banner', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #1D2635;
+    line-height: 33.6px;
+    margin: 0;
+    text-wrap: nowrap;
+    position: relative;
+    display: flex;
+    text-align: center;
+}
+
+.comfort-title p{
+    width: 792px;
+    height: 23px;
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #1D2635;
+    margin: 0;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.comfort-listbox{
+    width: 792px;
+    height: 216px;
+    position: absolute;
+    display: flex;
+    top: 97px;
+}
+
+.listbox1{
+    width: 229px;
+    height: 216px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    gap: 24px;
+}
+
+.listbox2{
+    width: 243px;
+    height: 216px;
+    position: absolute;
+    left: 269px;
+    display: flex;
+    gap: 24px;
+}
+
+.listbox3{
+    width: 239px;
+    height: 216px;
+    position: absolute;
+    right: 0;
+    display: flex;
+    gap: 24px;
+}
+
+.c-list1{
+    position: relative;
+    white-space: nowrap;
+    display: grid;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+}
+
+.dot{
+    width: 36px;
+    height: 36px;
+    border-radius: 16px;
+    background-color: rgba(50, 118, 255, 8%);
+    left: 0;
+    position: absolute;
+    display: flex;
+    margin: 0;
+}
+
+.list-icon{
+    width: 20px;
+    height: 20px;
+    margin: 8px;
+    align-items: center;
+}
+
+.comfort-listbox li{
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #232E40;
+    display: flex;
+    position: inherit;
+    height: 36px;
+    padding-left: 52px;
+    text-align: center;
+    align-items: center;
+}
+
+.comfort-border{
+    bottom: 0;
+    left: 0;
+    width: 792px;
+    position: absolute;
+    border: 1px solid;
+    border-color: #777E90;
+    opacity: 30%;
+}
+            /* comfort box style end */
+
+            /* feedback box style start */
+.feedback{
+    width: 792px;
+    height: 342px;
+    top: 1489px;
+    left: 120px;
+    position: absolute;
+    display: flex;
+}
+
+.feedback-title{
+    width: 792px;
+    height: 34px;
+    position: relative;
+    top: 0;
+}
+
+.feedback-title h1{
+    font-family: 'Forma DJR Banner', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #1D2635;
+    margin: 0;
+    line-height: 33.6px;
+}
+
+.all-feedback{
+    width: 105px;
+    height: 21px;
+    position: absolute;
+    left: 687px;
+    padding: 0;
+    top: 6.5px;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+    color: #3B71FE;
+    background: none;
+}
+
+.arrowr{
+    width: 12px;
+    height: 12px;
+    right: 0;
+    margin: 0;
+    position: absolute;
+    top: 2px;
+}
+
+.feedback-box{
+    width: 792px;
+    height: 260px;
+    display: flex;
+    position: absolute;
+    gap: 24px;
+    top: 50px;
+    overflow: hidden;
+}
+
+.feedback-card{
+    min-width: 420px;
+    height: 260px;
+    margin: 0;
+    position: relative;
+    border-radius: 24px;
+    background-color: #fff;
+}
+
+.f-quote{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 24px;
+    left: 16px;
+}
+
+.feedback-card p{
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1D2635;
+    width: 388px;
+    height: 104px;
+    top: 56px;
+    left: 16px;
+    position: absolute;
+    margin: 0;
+}
+
+.feedback-line{
+    top: 176px;
+    left: 16px;
+    width: 388px;
+    position: absolute;
+    border: 1px solid;
+    border-color: #FAFAFA;
+}
+
+.feedback-detail{
+    width: 388px;
+    height: 44px;
+    left: 16px;
+    top: 192px;
+    position: relative;
+    display: flex;
+    margin: 0;
+}
+
+.feed-avatar{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin: 0;
+    display: flex;
+}
+
+.feedback-detail p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.52px;
+    color: #1D2635;
+    position: absolute;
+    width: 100px;
+    height: 15px;
+    left: 68px;
+    top: 0;
+}
+
+.feed-stars{
+    width: 96px;
+    height: 16px;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 64px;
+}
+
+.feedback-border{
+    top: 342px;
+    left: 0;
+    width: 792px;
+    position: absolute;
+    border: 1px solid;
+    border-color: #777E90;
+    opacity: 30%;
+}
+            /* feedback box style end */
 
 .h-bodybox9{
     width: 1200px;
@@ -48,44 +487,27 @@
     width: 1200px;
     height: 410px;
     top: 61px;
-    position: absolute;
+    position: relative;
     margin: 0;
     display: flex;
+}
+
+.hgrid {
+    width: 1200px;
+    height: 410px;
+    display: grid;
+    gap: 24px;
+    position: relative;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .h-card1{
     width: 282px;
     height: 410px;
-    position: absolute;
+    position: inherit;
     margin: 0;
     display: flex;
-}
-
-.h-card2{
-    width: 282px;
-    height: 410px;
-    left: 306px;
-    position: absolute;
-    display: flex;
-    margin: 0;
-}
-
-.h-card3{
-    width: 282px;
-    height: 410px;
-    left: 612px;
-    position: absolute;
-    display: flex;
-    margin: 0;
-}
-
-.h-card4{
-    width: 282px;
-    height: 410px;
-    left: 918px;
-    position: absolute;
-    display: flex;
-    margin: 0;
 }
 
 .h-cardimage{
@@ -316,64 +738,3 @@
     border-color: rgba(183, 191, 213, 0.2);
 }
 
-.h-gallery{
-    width: 1200px;
-    height: 378px;
-    position: absolute;
-    margin: 0;
-    display: flex;
-    top: 85px;
-    gap: 24px;
-    overflow-x: scroll;
-    pointer-events: none;   
-}
-
-.h-gallery::-webkit-scrollbar{
-    display: none;
-}
-
-.h-scard{
-    width: 282px;
-    height: 378px;
-    margin: 0;
-    flex: none;
-}
-
-.h-simg{
-    width: 282px;
-    height: 282px;
-    margin: 0;
-    position: relative;
-}
-
-.h-discount{
-    width: 101px;
-    height: 36px;
-    top: 12px;
-    left: 12px;
-    margin: 0;
-    position: absolute;
-}
-
-.h-sinfo h4{
-    font-family: 'Onest', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25.2px;
-    color: #232E40;
-    position: relative;
-    top: 12px;
-    margin: 0;
-    width: 273px;
-}
-
-.h-sinfo p{
-    font-family: 'Onest', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 22.4px;
-    color: #777E90;
-    position: relative;
-    top: 24px;
-    margin: 0;
-}

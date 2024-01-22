@@ -11,182 +11,118 @@
 }
 
 .hnavbar{
-    width: 1440px;
-    height: 90px;
-    position: relative;
-}
-
-.hNavbarItems{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 1200px;
     height: 90px;
     position: relative;
-    margin: 0;
-    left: 0;
-    font-family: 'Onest', sans-serif;
-    font-weight: 500;
-    transform: translate(120px);
-    a{
-        color: #232E40;
-        text-decoration: none;
-    }
-}
-
-/*.NavbarItems:hover{
-    a{
-        color: #232E40;
-        text-decoration: none;
-    }
-}*/
-
-.hnavbar-logo{
-    cursor: pointer;
-    width: 183.58px;
-    height: 48px;
-    position: absolute;
     display: flex;
+    margin: 0 auto;
+    align-items: center;
 }
 
 .hlogo-header{
-    width: 183.58px;
+    width: 184px;
     height: 48px;
     margin: 0;
 }
 
-.hnav-menu{
-    display: grid;
-    position: relative;
+.hnav-menu1{
+    display: flex;
+    position: absolute;
+    left: 353px;
     white-space: nowrap;
-    padding: 0;
-    margin: 0;
     width: 366px;
     height: 22px;
-    grid-template-columns: repeat(6, auto);
-    grid-gap: 24px;
+    gap: 24px;
     list-style: none;
-    align-items: center;
-    font-size: 14px;
-    text-align: center;
-    left: 472.79px;
+    padding: 0;
 }
 
-.hnav-menu a{
-    text-decoration: none;
+.hnav-menu1 li a{
     color: #232E40;
+    font-family: 'Onest', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22.4px;
 }
 
-.hnav-menu1{
-    display: grid;
-    position: relative;
-    margin: 0;
-    left: 72.21px;
+.hnav-menu2{
+    display: flex;
+    position: absolute;
+    right: 0;
+    white-space: nowrap;
     width: 312px;
     height: 58px;
-    grid-template-columns: repeat(6, auto);
-    grid-gap: 24px;
-    list-style: none;
+    gap: 24px;
+    padding: 0;
+    align-items: center;
+    text-align: left;
 }
 
-.hnav-menu1 a{
+.currency{
+    width: 52px;
+    height: 22px;
+    position: relative;
+    padding: 0;
+    cursor: pointer;
+    
+}
+
+.currency p{
     color: #232E40;
+    font-family: 'Onest', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22.4px;
+    text-align: left;
+    margin: 0;
+    width: 30px;
 }
 
 .hbtn1{
-    background: none;
+    padding: 0;
     border: none;
-    font-size: 14px;
-    height: 22px;
     width: 54px;
-    cursor: pointer;
-    display: grid;
-}
-
-.hbtn1 a{
-    text-decoration: none;
-}
-
-.hwrapper1{
     height: 22px;
-    width: 60px;
     display: flex;
-    transform: translate(15px, 21px);
+    align-items: center;
+    background: none;
+}
+
+.language{
+    width: 81px;
+    height: 22px;
+    position: relative;
+    padding: 0;
+    cursor: pointer;
+}
+
+.language p{
+    color: #232E40;
+    font-family: 'Onest', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22.4px;
+    text-align: left;
+    margin: 0;
+    width: 57px;
 }
 
 .hbtn2{
-    background: none;
+    padding: 0;
     border: none;
-    font-size: 14px;
-    height: 22px;
     width: 81px;
-    cursor: pointer;
-    display: flex;
-}
-
-.hbtn2 a{
-    text-decoration: none;
-}
-
-.hwrapper2{
     height: 22px;
-    width: 75px;
-    display: flex;
-    transform: translate(15px, 21px);
-}
-
-.hbtn3{
-    background: #232E40;
-    background-size: 30%;
-    color: white;
-    font-size: 16px;
-    height: 58px;
-    width: 129px;
-    border-radius: 16px;
-    font-size: 16px;
-    font-weight: 500;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    transform: translate(18px, 0px);
-}
-
-.hbtn3 a{
-    color: white;
-}
-
-.hsignin{
-    background: #232E40;
-    background-size: 30%;
-    color: white;
-    font-size: 16px;
-    height: 58px;
-    width: 129px;
-    border-radius: 16px;
-    font-size: 16px;
-    font-weight: 500;
-    border: none;
-    cursor: pointer;
     display: flex;
     align-items: center;
-    font-family: 'Onest', sans-serif;
-    font-weight: 500;
-    line-height: 25.6px;
+    background: none;
 }
 
-.hwrapper3{
-    height: 26px;
-    width: 49px;
-    padding-top: 19px;
-    padding-right: 68px;
-    color: white;
-}
-
-.himgsignin{
-    height: 20px;
-    width: 20px;
-    position: absolute;
-    margin: 0 auto;
-    left: 24px;
-    color: white;
+.login{
+    width: 129px;
+    height: 58px;
+    position: relative;
+    border-radius: 16px;
+    cursor: pointer;
+    background-color: #232E40;
+    color: #fff;
 }

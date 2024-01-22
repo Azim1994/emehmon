@@ -35,7 +35,7 @@ function Body () {
     ];
         
     const slide = [
-        { name: 'Горы Кунгурбука', price: 'от $240', Image: '/images/sp1.png', Image2: ''}, 
+        { name: 'Горы Кунгурбука', price: 'от $240', Image: '/images/sp1.png' }, 
         { name: 'От Пальтау до Бричмуллы', price: 'от $240', Image: '/images/sp2.png' },
         { name: 'Восхождение на вершину горы Сюрената', price: 'от $240', Image: '/images/sp3.png' }, 
         { name: 'Зааминский горно-арчовый заповедник', price: 'от $240', Image: '/images/sp4.png' },
@@ -112,7 +112,7 @@ function Body () {
                     </div>
                     </div>
                     ))}
-                    </div>
+                </div>
             </div>
         </div>
         <div className='bodybox12'>

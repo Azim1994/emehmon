@@ -1,45 +1,45 @@
-import { Component } from 'react';
 import './HNavbarStyles.css';
 import 'semantic-ui-css/semantic.min.css'
 import { FaChevronDown } from "react-icons/fa";
 
 
-class HNavbar extends Component{
-    render(){
+function HNavbar () {
+
+        const items=[
+            {name:"Найти жилье",path:'/findplace'},
+            {name:"Куда сходить?",path:'/whereto'},
+            {name:"Туры",path:'/tours'},
+            {name:"Транспорт",path:'/transport'}
+]
+
         return(
+            <>
             <div className='hnavbarbox'>
             <div className='hnavbar'>
-            <nav className='hNavbarItems'>
-                <div className='hnavbar-logo'>
-                <a href="/"><img className='hlogo-header' src="images/logofooter.jpg" alt="logoheader" /></a>
+            <div className='hlogo-header'>
+            <a href="/"><img className='logo-header' src="images/logofooter.jpg" alt="logoheader" /></a>
+            </div>
+            <ul className='hnav-menu1'>
+                {items.map((nav)=>(
+                    <li><a href={nav.path}>{nav.name}</a></li>
+                    ))}
+                </ul>
+            <div className='hnav-menu2'>
+                <div className='currency'>
+                    <button className='hbtn1'><p>USD</p>
+                    <FaChevronDown color='#232E40' size={13}/></button>
                 </div>
-                <ul className='hnav-menu'>
-                    <li><a href="/">Найти желье</a></li>
-                    <li><a href="/">Куда сходить?</a></li>
-                    <li><a href="/">Туры</a></li>
-                    <li><a href="/">Транспорт</a></li>
-                </ul>
-                <ul className='hnav-menu1'>
-                    <button className='hbtn1'>
-                        <div className='hwrapper1'><a href="/">USD</a>
-                        <FaChevronDown color='white' size={13}
-                        style={{paddingLeft: "4px", paddingTop: "3px"}}/></div>
-                    </button>
-                    <button className='hbtn2'>
-                        <div className='hwrapper2'><a href="/">Русский </a>
-                        <FaChevronDown color='white' size={13}
-                        style={{paddingLeft: "8px", paddingTop: "3px"}}/></div>
-                    </button>
-                    <div className='hbtn3'>
-                        <img src='images/loginlogo.png' alt='signinlogo' className='imgsignin'></img> 
-                        <button className='hsignin'><a href="/">Войти</a></button>
-                    </div>
-                </ul>
-            </nav>
+                <div className='language'>
+                    <button className='hbtn2'><p>Русский</p> 
+                    <FaChevronDown color='#232E40' size={13}/></button>
+                </div>
+                <button className='login'>Войти</button>
+            </div>    
+
             </div>
             </div>
+            </>
         )
     }
-}
 
 export default HNavbar;

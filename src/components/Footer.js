@@ -57,21 +57,21 @@ const lis=[
             </div>
             <div className='bodybox20'>
                 <ul className='list'>
-            {items.map((val)=>(
+                    {items.map((val)=>(
                     <li><a href={val.path}>{val.name}</a></li>
                     ))}
                     </ul>
                 </div>
             <div className='bodybox21'>
                 <ul className='list1'>
-                {lists.map((val)=>(
+                    {lists.map((val)=>(
                     <li><a href={val.path}>{val.name}</a></li>
                     ))}
                 </ul>
             </div>
             <div className='bodybox22'>
                 <ul className='list2'>
-                {lis.map((val)=>(
+                    {lis.map((val)=>(
                     <li><a href={val.path}>{val.name}</a></li>
                     ))}
                 </ul>

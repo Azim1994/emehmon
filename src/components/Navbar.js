@@ -1,23 +1,23 @@
-import { Component } from 'react';
 import './NavbarStyles.css';
 import 'semantic-ui-css/semantic.min.css'
 import { FaChevronDown } from "react-icons/fa";
 
 
-class Navbar extends Component{
-    render(){
+function Navbar () {
+   
 
         const items=[
             {name:"Найти жилье",path:'/findplace'},
             {name:"Куда сходить?",path:'/whereto'},
             {name:"Туры",path:'/tours'},
             {name:"Транспорт",path:'/transport'}
-]
+                    ]
 
         return(
+            <>
             <nav className='NavbarItems'>
                 <div className='navbar-logo'>
-                    <img className='logo-header' src="images/logoheader.png" alt="logoheader" />
+                <a href="/"><img className='logo-header' src="images/logoheader.png" alt="logoheader" /></a>
                 </div>
                 <ul className='nav-menu'>
                 {items.map((nav)=>(
@@ -41,8 +41,9 @@ class Navbar extends Component{
                     </button>
                 </ul>
             </nav>
+            </>
         )
     }
-}
+
 
 export default Navbar;

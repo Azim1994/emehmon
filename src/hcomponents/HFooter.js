@@ -1,8 +1,34 @@
 import './HFooterStyles.css'
-import HFooterslider from './HSwiper';
+import HFooterslider from './HFSwiper';
 
 function HFooter () {
     
+    const items=[
+        {name:"Регионы",path:'/regions'},
+        {name:"Города",path:'/cities'},
+        {name:"Районы",path:'/districts'},
+        {name:"Аэропорты",path:'/aeroports'},
+        {name:"Ориентиры",path:'/guides'},
+    ]
+    
+    const lists=[
+        {name:"Отели",path:'/hotels'},
+        {name:"Дома и апартаменты",path:'/housesapp'},
+        {name:"Апартаменты/квартиры",path:'/appartments'},
+        {name:"Курортные отели",path:'/relaxhot'},
+        {name:"Хостелы",path:'/hostels'},
+        {name:"Гостевые дома",path:'/guesthouses'},
+    ]
+    
+    const lis=[
+            {name:"Уникальное жилье",path:'/uniqueplaces'},
+            {name:"Отзывы",path:'/reviews'},
+            {name:"Сообщество путешественников",path:'/travelersclub'},
+            {name:"Сезонные спецпредложения",path:'/seasonhot'},
+            {name:"Поиск автомобилей",path:'/carsearch'},
+            {name:"Управлять бронированиями",path:'/reservations'},
+    ]
+
     return (
     <>
             <div className='h-bodybox16'>
@@ -21,7 +47,8 @@ function HFooter () {
             <div className='h-footerbox'>
             <div className='h-bodybox19'>
                 <div className='h-logofooter'>
-                <a href="/"><img src='images/logofooter.jpg' alt='logofooter'></img></a>
+                <div className='h-logo'><a href="/"><img src='images/logo.png' alt='logo'></img></a></div>
+                <div className='h-emehmon'><a href="/"><img src='images/emehmon.png' alt='emehmon'></img></a></div>
                 </div>
                 <p>Лучшая платформа для бронирования отелей в Узбекистане</p>
                 <div className='h-fb'></div>
@@ -30,31 +57,23 @@ function HFooter () {
             </div>
             <div className='h-bodybox20'>
                 <ul className='h-list'>
-                    <li><a href="/">Регионы</a></li>
-                    <li><a href="/">Города</a></li>
-                    <li><a href="/">Районы</a></li>
-                    <li><a href="/">Аэропорты</a></li>
-                    <li><a href="/">Ориентиры</a></li>
+                    {items.map((val)=>(
+                    <li><a href={val.path}>{val.name}</a></li>
+                    ))}
                 </ul>
             </div>
             <div className='h-bodybox21'>
                 <ul className='h-list1'>
-                    <li><a href="/">Отели</a></li>
-                    <li><a href="/">Дома и апартаменты</a></li>
-                    <li><a href="/">Апартаменты/квартиры</a></li>
-                    <li><a href="/">Курортные отели</a></li>
-                    <li><a href="/">Хостелы</a></li>
-                    <li><a href="/">Гостевые дома</a></li>
+                    {lists.map((val)=>(
+                    <li><a href={val.path}>{val.name}</a></li>
+                    ))}
                 </ul>
             </div>
             <div className='h-bodybox22'>
                 <ul className='h-list2'>
-                    <li><a href="/">Уникальное жилье</a></li>
-                    <li><a href="/">Отзывы</a></li>
-                    <li><a href="/">Сообщество путешественников</a></li>
-                    <li><a href="/">Сезонные спецпредложения</a></li>
-                    <li><a href="/">Поиск автомобилей</a></li>
-                    <li><a href="/">Управлять бронированиями</a></li>
+                    {lis.map((val)=>(
+                    <li><a href={val.path}>{val.name}</a></li>
+                    ))}
                 </ul>
             </div>
             <div className='h-copyright'>

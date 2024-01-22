@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useRef, useEffect, useState } from 'react';
 import images from './Images'
 
-function Header(props) {
+function Header() {
 
     const [width, setWidth] = useState(0);
     const carousel = useRef();
