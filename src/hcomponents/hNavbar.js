@@ -35,7 +35,6 @@ function HNavbar () {
                 </div>
                 <button className='login'>Войти</button>
             </div>    
-
             </div>
             </div>
             </>

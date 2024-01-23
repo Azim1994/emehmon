@@ -21,12 +21,12 @@ function HFooter () {
     ]
     
     const lis=[
-            {name:"Уникальное жилье",path:'/uniqueplaces'},
-            {name:"Отзывы",path:'/reviews'},
-            {name:"Сообщество путешественников",path:'/travelersclub'},
-            {name:"Сезонные спецпредложения",path:'/seasonhot'},
-            {name:"Поиск автомобилей",path:'/carsearch'},
-            {name:"Управлять бронированиями",path:'/reservations'},
+        {name:"Уникальное жилье",path:'/uniqueplaces'},
+        {name:"Отзывы",path:'/reviews'},
+        {name:"Сообщество путешественников",path:'/travelersclub'},
+        {name:"Сезонные спецпредложения",path:'/seasonhot'},
+        {name:"Поиск автомобилей",path:'/carsearch'},
+        {name:"Управлять бронированиями",path:'/reservations'},
     ]
 
     return (
@@ -80,7 +80,6 @@ function HFooter () {
                 <p>E-Mehmon © 2023. Все права защищены. </p>
             </div>
             </div>
-            
             </div>
         </div>
     </>

@@ -5,13 +5,12 @@ import { FaChevronDown } from "react-icons/fa";
 
 function Navbar () {
    
-
         const items=[
             {name:"Найти жилье",path:'/findplace'},
             {name:"Куда сходить?",path:'/whereto'},
             {name:"Туры",path:'/tours'},
             {name:"Транспорт",path:'/transport'}
-                    ]
+            ]
 
         return(
             <>

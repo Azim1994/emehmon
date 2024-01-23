@@ -64,7 +64,6 @@
     position: relative;
     padding: 0;
     cursor: pointer;
-    
 }
 
 .currency p{
@@ -86,6 +85,7 @@
     display: flex;
     align-items: center;
     background: none;
+    cursor: pointer;
 }
 
 .language{
@@ -115,6 +115,7 @@
     display: flex;
     align-items: center;
     background: none;
+    cursor: pointer;
 }
 
 .login{
