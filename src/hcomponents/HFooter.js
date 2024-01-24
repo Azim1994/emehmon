@@ -2,7 +2,7 @@ import './HFooterStyles.css'
 import HFooterslider from './HFSwiper';
 
 function HFooter () {
-    
+                            // list1 map data
     const items=[
         {name:"Регионы",path:'/regions'},
         {name:"Города",path:'/cities'},
@@ -10,7 +10,7 @@ function HFooter () {
         {name:"Аэропорты",path:'/aeroports'},
         {name:"Ориентиры",path:'/guides'},
     ]
-    
+                            // list2 map data
     const lists=[
         {name:"Отели",path:'/hotels'},
         {name:"Дома и апартаменты",path:'/housesapp'},
@@ -19,7 +19,7 @@ function HFooter () {
         {name:"Хостелы",path:'/hostels'},
         {name:"Гостевые дома",path:'/guesthouses'},
     ]
-    
+                            // list3 map data
     const lis=[
         {name:"Уникальное жилье",path:'/uniqueplaces'},
         {name:"Отзывы",path:'/reviews'},

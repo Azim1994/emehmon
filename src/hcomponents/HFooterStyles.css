@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Onest:wght@100;400;500&display=swap');
 @import url('https://fonts.cdnfonts.com/css/forma-djr-banner');
 
+                                /* h-bodybox16 style start  */
 .h-bodybox16{
     width: 100%;
     height: 585px;
@@ -77,7 +78,8 @@
     border: 1px solid;
     border-color: rgba(183, 191, 213, 0.2);
 }
-
+                                /* h-bodybox16 style end  */
+                                /* h-bodybox18 style start  */
 .h-bodybox18{
     width: 100%;
     height: 497px;
@@ -104,7 +106,7 @@
     position: absolute;
     display: flex;
 }
-
+                            /* h-bodybox19 style start  */
 .h-bodybox19{
     width: 282px;
     height: 180px;
@@ -178,7 +180,8 @@
     margin: 0;
     background-image: url(/public/images/tg.jpg);
 }
-
+                            /* h-bodybox19 style end  */
+                            /* h-bodybox20 style start  */
 .h-bodybox20{
     width: 82px;
     height: 143px;
@@ -207,7 +210,8 @@
     text-decoration: none;
     cursor: pointer;
 }
-
+                            /* h-bodybox20 style end  */
+                            /* h-bodybox21 style start  */
 .h-bodybox21{
     width: 175px;
     height: 174px;
@@ -236,7 +240,8 @@
     text-decoration: none;
     cursor: pointer;
 }
-
+                            /* h-bodybox21 style end  */
+                            /* h-bodybox22 style start  */
 .h-bodybox22{
     width: 234px;
     height: 174px;
@@ -265,6 +270,7 @@
     text-decoration: none;
     cursor: pointer;
 }
+                            /* h-bodybox22 style end  */
 
 .h-footerline{
     border: 1px solid #B7BFD5;
@@ -293,3 +299,4 @@
     line-height: 19.12px;
     text-wrap: nowrap;
 }
+                            /* footer style end  */

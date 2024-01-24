@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Onest:wght@100;400;500&display=swap');
+
+
+.gallery{
+    width: 1200px;
+    height: 378px;
+    position: absolute;
+    margin: 0;
+    display: flex;
+    top: 85px;
+    gap: 24px;
+    overflow-x: scroll;
+    pointer-events: none;   
+}
+
+.gallery::-webkit-scrollbar{
+    display: none;
+}
+
+.scard{
+    width: 282px;
+    height: 378px;
+    margin: 0;
+    flex: none;
+}
+
+.simg{
+    width: 282px;
+    height: 282px;
+    margin: 0;
+    position: relative;
+}
+
+.discount{
+    width: 101px;
+    height: 36px;
+    top: 12px;
+    left: 12px;
+    margin: 0;
+    position: absolute;
+}
+
+.sinfo h4{
+    font-family: 'Onest', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25.2px;
+    color: #232E40;
+    position: relative;
+    top: 12px;
+    margin: 0;
+    width: 273px;
+}
+
+.sinfo p{
+    font-family: 'Onest', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #777E90;
+    position: relative;
+    top: 24px;
+    margin: 0;
+}

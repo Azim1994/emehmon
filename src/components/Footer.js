@@ -2,7 +2,7 @@ import './FooterStyles.css'
 import Footerslider from './Swiper';
 
 function Footer () {
-
+                                // footer list1 map data
 const items=[
     {name:"Регионы",path:'/regions'},
     {name:"Города",path:'/cities'},
@@ -10,7 +10,7 @@ const items=[
     {name:"Аэропорты",path:'/aeroports'},
     {name:"Ориентиры",path:'/guides'},
 ]
-
+                                // footer list2 map data
 const lists=[
     {name:"Отели",path:'/hotels'},
     {name:"Дома и апартаменты",path:'/housesapp'},
@@ -19,7 +19,7 @@ const lists=[
     {name:"Хостелы",path:'/hostels'},
     {name:"Гостевые дома",path:'/guesthouses'},
 ]
-
+                                // footer list3 map data
 const lis=[
         {name:"Уникальное жилье",path:'/uniqueplaces'},
         {name:"Отзывы",path:'/reviews'},
@@ -80,7 +80,6 @@ const lis=[
                 <p>E-Mehmon © 2023. Все права защищены. </p>
             </div>
             </div>
-            
             </div>
         </div>
     </>

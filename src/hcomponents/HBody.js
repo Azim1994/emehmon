@@ -2,6 +2,7 @@ import HBodyslider from './HBSwiper';
 import './HBodyStyles.css';
 import { FaChevronRight } from "react-icons/fa";
 
+
 function HBody () {    
 
                                 // bodybox9 map list
@@ -42,24 +43,17 @@ function HBody () {
             {name:"Превосходные бассейны",Image:'/images/icon5.png'}
     ]
 
-//     const pictures=[
-//         {Image:'/images/hgallery1.png'},
-//         {Image:'/images/hgallery2.png'},
-//         {Image:'/images/hgallery3.png'},
-//         {Imag
+    // const dropdownBtn = document.querySelector(".drop-btn");
+    // const dropdownMenu = document.querySelector(".drop-content");
 
-    // const mainImg = document.getElementById('mainImg');
-    // const thumb1 = document.getElementById('thumb1');
-    // const thumb1Src = document.getElementById('thumb1').src;
-    // const thumb2 = document.getElementById('thumb2');
-    // const thumb2Src = document.getElementById('thumb2').src;
-
-    // thumb1.addEventListener("click",function(){
-    //     mainImg.src=thumb1Src
+    // dropdownBtn.addEventListener("click", () => {
+    //     dropdownMenu.classList.toggle("hide");
     // })
 
-    // thumb2.addEventListener("click",function(){
-    //     mainImg.src=thumb2Src
+    // window.addEventListener("click", (e) => {
+    //     if (e.target !== dropdownBtn) {
+    //         dropdownMenu.classList.add("hide");
+    //     }
     // })
 
     return (
@@ -111,36 +105,38 @@ function HBody () {
                 <p>от</p><h2>$120</h2> <p>/ночь</p>
             </div>
             <div className='mini-form'>
-            <form className='form-box'>
+            <div className='form-box'>
                     <div className='field-date1 active'>                      
-                      <input type='text' id='date' required></input>
+                      <input type='text' id='date'></input>
                       <div className='icon'>
                         <img src='images/calendar.png' alt='calendar'></img>
                       </div>
                       <label for="name">Заезд</label>
                     </div>
                     <div className='field-date2'>                        
-                      <input type='text' id='date' required></input>
+                      <input type='text' id='date'></input>
                       <div className='icon'>
                         <img src='images/calendar.png' alt='calendar'></img>
                         </div>
                       <label for="name">Выезд</label>
                     </div>
                     <div className='field-h'>    
-                      <label for="name">Количество гостей</label>                  
-                      <input type='text' list="people" id='people' required>
-                        {/* <datalist id="people">
-                            <option value="2 взрослых"></option>
-                            <option value="3 взрослых"></option>
-                            <option value="4 взрослых"></option>
-                        </datalist> */}
-                      </input>
+                      <label for="name">Количество гостей</label>
+                      <select className="guests" id="guests">
+                        <option value="2 взрослых">2 взрослых</option>
+                        <option value="3 взрослых">3 взрослых</option>
+                        <option value="4 взрослых">4 взрослых</option>
+                        <option value="5 взрослых">5 взрослых</option>
+                        <img src='images/dropdown.png' className='drop-btn' alt='user'></img>
+                        </select>
+                      <button className='drop-btn'>
+                        <img src='images/dropdown.png' alt='user'></img></button>
                       <div className='icon'>
                         <img src='images/user.png' alt='user'></img>
                       </div>
                     </div>
                       <button className='lookfor'><a href="/hotels">Просмотреть наличие мест</a></button>
-                    </form>
+                    </div>
             </div>
             <div className='actual'>
                 <p>Цены актуальны до 24 ноября, 2023 года</p>

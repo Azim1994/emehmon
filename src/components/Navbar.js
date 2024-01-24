@@ -1,6 +1,5 @@
 import './NavbarStyles.css';
 import 'semantic-ui-css/semantic.min.css'
-import { FaChevronDown } from "react-icons/fa";
 
 
 function Navbar () {
@@ -23,22 +22,26 @@ function Navbar () {
                     <li><a href={nav.path}>{nav.name}</a></li>
                     ))}
                 </ul>
-                <ul className='nav-menu1'>
-                    <button className='btn1'>
-                        <div className='wrapper1'><a href="/">USD</a>
-                        <FaChevronDown color='white' size={13}
-                        style={{paddingLeft: "4px", paddingTop: "3px"}}/></div>
-                    </button>
-                    <button className='btn2'>
-                        <div className='wrapper2'><a href="/">Русский </a>
-                        <FaChevronDown color='white' size={13}
-                        style={{paddingLeft: "8px", paddingTop: "3px"}}/></div>
-                    </button>
-                    <button className='btn3'>
-                        <img src='images/loginlogo.png' alt='signinlogo' className='imgsignin'></img> 
-                        <div className='wrapper3'><a href="/">Войти</a></div>
-                    </button>
-                </ul>
+                <div className='nav-menu1'>
+                    <div className='btn1'>
+                    <select id="currencies">
+                    <option value="USD">USD</option>
+                    <option value="UZS">UZS</option>
+                    <option value="RUB">RUB</option>
+                    </select>
+                    </div>
+                    <div className='btn2'>
+                    <select id="languages">
+                    <option value="Русский">Русский</option>
+                    <option value="Английский">Английский</option>
+                    <option value="Узбекский">Узбекский</option>
+                    </select>
+                    </div>
+                    <div className='btn3'>
+                    <img src='images/loginlogo.png' alt='signinlogo'></img> 
+                        <button className='login'>Войти</button>
+                    </div>
+                </div>
             </nav>
             </>
         )

@@ -40,6 +40,7 @@
     margin: 0 auto;
 }
 
+                                /* nav menu style start */
 .nav-menu{
     display: grid;
     position: relative;
@@ -52,22 +53,26 @@
     align-items: center;
     font-size: 14px;
     text-align: center;
-    left: 169.21px;
+    left: 352.79px;
+    margin: 0;
 }
 
 .nav-menu a{
     text-decoration: none;
 }
-
+                                /* nav menu style end */
+                                /* nav menu1 style start */
 .nav-menu1{
-    display: grid;
-    position: relative;
-    left: 72.21px;
-    width: 312px;
+    display: flex;
+    position: absolute;
+    right: 0;
+    white-space: nowrap;
+    width: 330px;
     height: 58px;
-    grid-template-columns: repeat(6, auto);
-    grid-gap: 24px;
-    list-style: none;
+    gap: 24px;
+    padding: 0;
+    align-items: center;
+    text-align: left;
 }
 
 .btn1{
@@ -80,15 +85,25 @@
     display: grid;
 }
 
-.btn1 a{
-    text-decoration: none;
+.btn1 select{
+    border: none;
+    color: #fff;
+    font-family: 'Onest', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22.4px;
+    background: none;
 }
 
-.wrapper1{
-    height: 22px;
-    width: 60px;
-    display: flex;
-    transform: translate(15px, 21px);
+.btn1 select:focus{
+    border: none;
+    color: #fff;
+    font-family: 'Onest', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22.4px;
+    background: none;
+    background-color: rgba(28, 37, 52, 0.9);
 }
 
 .btn2{
@@ -101,15 +116,25 @@
     display: flex;
 }
 
-.btn2 a{
-    text-decoration: none;
+.btn2 select{
+    border: none;
+    color: #fff;
+    font-family: 'Onest', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22.4px;
+    background: none;
 }
 
-.wrapper2{
-    height: 22px;
-    width: 75px;
-    display: flex;
-    transform: translate(15px, 21px);
+.btn2 select:focus{
+    border: none;
+    color: #fff;
+    font-family: 'Onest', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22.4px;
+    background: none;
+    background-color: rgba(28, 37, 52, 0.9);
 }
 
 .btn3{
@@ -124,25 +149,25 @@
     border: none;
     cursor: pointer;
     display: flex;
-    transform: translate(18px, 0px);
+    align-items: center;
 }
 
-.btn3 a{
-    text-decoration: none;
-}
-
-.wrapper3{
-    height: 26px;
-    width: 49px;
-    padding-top: 19px;
-    padding-right: 68px;
-}
-
-.imgsignin{
-    height: 20px;
+.btn3 img{
+    margin: 0;
     width: 20px;
-    margin: auto;
-    top: 50%;
-    left: 30%;
-    transform: translate(30%, -2%);
+    height: 20px;
+    left: 26px;
+    position: relative;
 }
+
+.login{
+    background: none;
+    border: none;
+    color: #fff;
+    font-family: 'Onest', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25.6px;
+}
+
+                                /* nav menu1 style end */

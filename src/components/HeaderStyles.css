@@ -7,7 +7,7 @@
     margin: 0;
     position: relative;
 }
-
+                            /* header-box1-4 style start */
 .header-box{
     position: absolute;
     width: 1200px;
@@ -49,13 +49,6 @@
     bottom: 0;
     position: absolute;
     display: flex;
-}
-
-.header-box5{
-    width: 1320px;
-    height: 310px;
-    top: 390px;
-    position: absolute;
 }
 
 .header-box1 h1{
@@ -148,9 +141,13 @@
     margin: 0;
     position: absolute;
 }
-
-.buttontext2{
-    top: 110px;
+                                /* header-box1-4 style end */
+                                /* header-box5 slider style start */
+.header-box5{
+    width: 1320px;
+    height: 310px;
+    top: 390px;
+    position: absolute;
 }
 
 .item{
@@ -237,7 +234,8 @@
 .carousel{
     cursor: grab;
 }
-
+                                /* header-box5 slider style end */
+                                /* header-box6 tab style start */
 .header-box6{
     width: 1200px;
     height: 279px;
@@ -283,7 +281,7 @@
 .tab-box .tab-btn.active{
     color: #232E40;
 }
-
+                                /* header-box5 form style start */
 .form-inline{
     display: flex;
     flex-flow: row wrap;
@@ -420,3 +418,4 @@ label{
 .search{
     cursor: pointer;
 }
+                                /* header-box6 style end */

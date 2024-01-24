@@ -1,6 +1,5 @@
 import './HNavbarStyles.css';
 import 'semantic-ui-css/semantic.min.css'
-import { FaChevronDown } from "react-icons/fa";
 
 
 function HNavbar () {
@@ -26,14 +25,23 @@ function HNavbar () {
                 </ul>
             <div className='hnav-menu2'>
                 <div className='currency'>
-                    <button className='hbtn1'><p>USD</p>
-                    <FaChevronDown color='#232E40' size={13}/></button>
+                <select id="currencies">
+                <option value="USD">USD</option>
+                <option value="UZS">UZS</option>
+                <option value="RUB">RUB</option>
+                </select>
                 </div>
                 <div className='language'>
-                    <button className='hbtn2'><p>Русский</p> 
-                    <FaChevronDown color='#232E40' size={13}/></button>
+                <select id="languages">
+                <option value="Русский">Русский</option>
+                <option value="Английский">Английский</option>
+                <option value="Узбекский">Узбекский</option>
+                </select>
                 </div>
-                <button className='login'>Войти</button>
+                <div className='h-btn3'>
+                    <img src='images/loginlogo.png' alt='signinlogo'></img> 
+                    <button className='h-login'>Войти</button>
+                </div>
             </div>    
             </div>
             </div>

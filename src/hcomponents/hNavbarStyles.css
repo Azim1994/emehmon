@@ -25,6 +25,7 @@
     margin: 0;
 }
 
+                                /* h-nav-menu1 style start  */
 .hnav-menu1{
     display: flex;
     position: absolute;
@@ -44,13 +45,14 @@
     font-size: 14px;
     line-height: 22.4px;
 }
-
+                                /* h-nav-menu1 style end  */
+                                /* h-nav-menu2 style start  */
 .hnav-menu2{
     display: flex;
     position: absolute;
     right: 0;
     white-space: nowrap;
-    width: 312px;
+    width: 330px;
     height: 58px;
     gap: 24px;
     padding: 0;
@@ -59,52 +61,38 @@
 }
 
 .currency{
-    width: 52px;
+    width: 60px;
     height: 22px;
     position: relative;
     padding: 0;
     cursor: pointer;
+    display: flex;
 }
 
-.currency p{
+.currency select{
+    border: none;
     color: #232E40;
     font-family: 'Onest', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 22.4px;
-    text-align: left;
-    margin: 0;
-    width: 30px;
-}
-
-.hbtn1{
-    padding: 0;
-    border: none;
-    width: 54px;
-    height: 22px;
-    display: flex;
-    align-items: center;
-    background: none;
-    cursor: pointer;
 }
 
 .language{
-    width: 81px;
+    width: 100px;
     height: 22px;
     position: relative;
     padding: 0;
     cursor: pointer;
 }
 
-.language p{
+.language select{
+    border: none;
     color: #232E40;
     font-family: 'Onest', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 22.4px;
-    text-align: left;
-    margin: 0;
-    width: 57px;
 }
 
 .hbtn2{
@@ -118,12 +106,36 @@
     cursor: pointer;
 }
 
-.login{
-    width: 129px;
+.h-btn3{
+    background: #232E40;
+    background-size: 30%;
+    font-size: 16px;
     height: 58px;
-    position: relative;
+    width: 129px;
     border-radius: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
     cursor: pointer;
-    background-color: #232E40;
-    color: #fff;
+    display: flex;
+    align-items: center;
 }
+
+.h-btn3 img{
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    left: 26px;
+    position: relative;
+}
+
+.h-login{
+    background: none;
+    border: none;
+    color: #fff;
+    font-family: 'Onest', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25.6px;
+}
+                            /* h-nav-menu2 style end  */

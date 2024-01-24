@@ -195,7 +195,6 @@
     position: relative;
     width: 180px;
     height: 150px;
-    cursor: pointer;
 }
 
 .image4 {
@@ -418,7 +417,7 @@
     display: flex;
 }
 
-.field-h input{
+.field-h select{
     border-radius: 16px;
     background: #F8F8FA;
     border: none;
@@ -430,7 +429,49 @@
     font-weight: 400;
     line-height: 20.8px;
     color: #1D2635;
-    padding-left: 52px;  
+    padding-left: 52px;
+    -webkit-appearance: none;
+}   
+
+.drop-btn{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    border: none;
+    top: 16px;
+    right: 16px;
+    background: none;
+    padding: 0;
+}
+
+.drop-btn img{
+    width: 24px;
+    height: 24px;
+}
+
+.drop-content{
+    width: 336px;
+    top: 57px;
+    border-radius: 16px;
+    padding-left: 56px;
+    position: absolute;
+    display: none;
+    overflow: auto;
+    background: #F8F8FA;
+    z-index: 1;
+    color: #1D2635;
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+}
+
+.drop-content option{
+    padding: 6px 0;
+}
+
+.display{
+    display: block;
 }
 
 .lookfor{
@@ -441,6 +482,7 @@
     border-radius: 16px;
     background-color: #3276FF;
     border: none;
+    cursor: pointer;
 }
 
 .lookfor a{
