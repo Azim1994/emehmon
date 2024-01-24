@@ -15,7 +15,7 @@ function Header() {
 
     
         const tabs= document.querySelectorAll('.tab-btn');
-        const all_content= document.querySelectorAll('.field-holder');
+        // const all_content= document.querySelectorAll('.field-holder');
   
         tabs.forEach((tab, index)=>{
           tab.addEventListener('click', (e)=>{
