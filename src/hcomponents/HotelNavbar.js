@@ -2,7 +2,7 @@ import './HNavbarStyles.css';
 import 'semantic-ui-css/semantic.min.css'
 
 
-function HNavbar () {
+function HotelNavbar () {
 
         const items=[
             {name:"Найти жилье",path:'/findplace'},
@@ -49,4 +49,4 @@ function HNavbar () {
         )
     }
 
-export default HNavbar;
+export default HotelNavbar;
