@@ -1,4 +1,4 @@
-import './HNavbarStyles.css';
+import './HotelNavbarStyles.css';
 import 'semantic-ui-css/semantic.min.css'
 
 
