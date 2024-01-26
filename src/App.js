@@ -9,7 +9,7 @@ export default function App() {
     <div className="App">
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/hotels" element={<Hotels />} />
+          <Route path="/hotels" element={<Hotels />} />
         </Routes>
     </div>
   );
