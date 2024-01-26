@@ -1,6 +1,6 @@
-import HNavbar from '../hcomponents/HNavbar';
 import {Container} from '@mui/material'
 import Box from '@mui/material/Box';
+import HNavbar from '../hcomponents/HNavbar'
 import HBody from '../hcomponents/HBody'
 import HFooter from '../hcomponents/HFooter'
 
