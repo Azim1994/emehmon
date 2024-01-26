@@ -1,6 +1,5 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper/modules';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import './HeaderSwiperStyles.css'
@@ -21,7 +20,7 @@ export default function Headerslider() {
         slidesPerView={2} 
         spaceBetween={-280}
         autoplay={{ delay: 5000 }}
-        modules={[Navigation, Autoplay]}
+        modules={[Autoplay]}
         >
               <div className='carousel'>
               {carousels.map((item)=>(

@@ -1,12 +1,9 @@
 import './HeaderStyles.css'
 import Headerslider from './HeaderSwiper';
-// import { useRef, useEffect, useState } from 'react';
-// import { motion } from 'framer-motion';
-// import images from './Images'
+
 
 function Header() {
 
-    
         const tabs= document.querySelectorAll('.tab-btn');
         // const all_content= document.querySelectorAll('.field-holder');
   
