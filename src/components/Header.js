@@ -1,17 +1,10 @@
 import './HeaderStyles.css'
-import { motion } from 'framer-motion';
-import { useRef, useEffect, useState } from 'react';
-import images from './Images'
+import Headerslider from './HeaderSwiper';
+// import { useRef, useEffect, useState } from 'react';
+// import { motion } from 'framer-motion';
+// import images from './Images'
 
 function Header() {
-
-    const [width, setWidth] = useState(0);
-    const carousel = useRef();
-
-    useEffect(() => {
-      /*console.log(carousel.current.scrollWidth, carousel.current.offsetWidth);*/
-      setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
-    }, []); 
 
     
         const tabs= document.querySelectorAll('.tab-btn');
@@ -46,28 +39,7 @@ function Header() {
           </div>
         </div>
         <div className='header-box5'>
-          <motion.div ref={carousel} className='carousel' whileTap={{cursor: "grabbing"}}>
-              <motion.div
-               drag='x'
-               dragConstraints={{ right: 0, left: -width }}
-               className='inner-carousel'
-               >
-                  {images.map((image) => {
-                      return(
-                        <motion.div className='item' key={image}>
-                          <img src={image} alt="" />
-                          <div className='text-box'>
-                            <div className='text-box1'>
-                            <h3>Hotel Neptun Tashkent Pool&Spa</h3>
-                            <h2>от $120</h2>
-                            <p>8 ул. Лянгар, Ташкент</p>
-                            </div>
-                          </div>
-                        </motion.div>
-                      )
-                  })}
-              </motion.div>
-          </motion.div>
+        <Headerslider></Headerslider>  
         </div>
             <div className='header-box6'>
                   <div className='tab-box'>

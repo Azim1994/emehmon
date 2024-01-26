@@ -18,6 +18,7 @@ export default function Bodyslider() {
         { name: 'Зааминский горно-арчовый заповедник', price: 'от $240', Image: '/images/sp8.png' },
     ]
 
+
   return (
     <>
     <div className='gallery'>
