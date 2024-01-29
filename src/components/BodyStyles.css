@@ -1,500 +1,515 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Onest:wght@100;400;500&display=swap');
-@import url('https://fonts.cdnfonts.com/css/forma-djr-banner');
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Onest:wght@100;400;500&display=swap");
+@import url("https://fonts.cdnfonts.com/css/forma-djr-banner");
 
-                                        /* bodybox1 style start */
-.bodybox1{
-    width: 1098px;
-    height: 770px;
-    top: 252px;
-    position: relative;
-    margin: 0;
-    left: 120px;
-    display: flex;
+/* bodybox1 style start */
+.bodybox1 {
+  width: 1098px;
+  height: 770px;
+  top: 252px;
+  position: relative;
+  margin: 0;
+  left: 120px;
+  display: flex;
 }
 
-.bodybox2{
-    width: 818px;
-    height: 86px;
-    position: absolute;
-    margin: 0 auto;
-    left: 191px;
-    align-items: center;
-    justify-content: center;
-    display: block;
+.bodybox2 {
+  width: 818px;
+  height: 86px;
+  position: absolute;
+  margin: 0 auto;
+  left: 191px;
+  align-items: center;
+  justify-content: center;
+  display: block;
 }
 
-.bodybox2 h1{
-    font-family: 'Forma DJR Banner', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    color: #232E40;
-    line-height: 44.8px;
-    text-align: center;
-    letter-spacing: 2%;
-    text-wrap: nowrap;
+.bodybox2 h1 {
+  font-family: "Forma DJR Banner", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #232e40;
+  line-height: 44.8px;
+  text-align: center;
+  letter-spacing: 2%;
+  text-wrap: nowrap;
 }
 
-.bodybox2 p{
-    font-family: 'Onest', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25.2px;
-    text-align: center;
-    color: #777E90;
-    letter-spacing: 2%;
-    text-wrap: nowrap;
+.bodybox2 p {
+  font-family: "Onest", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25.2px;
+  text-align: center;
+  color: #777e90;
+  letter-spacing: 2%;
+  text-wrap: nowrap;
 }
 
-.bodybox3{
-    width: 1098px;
-    height: 644px;
-    top: 126px;
-    position: relative;
-    margin: 0;
+.bodybox3 {
+  width: 1098px;
+  height: 644px;
+  top: 126px;
+  position: relative;
+  margin: 0;
 }
 
-.bodybox4{
-    width: 572px;
-    height: 644px;
-    position: relative;
-    margin: 0;
+.bodybox4 {
+  width: 572px;
+  height: 644px;
+  position: relative;
+  margin: 0;
 }
 
-.body1{
-    width: 453px;
-    height: 644px;
-    left: 85px;
-    margin: 0;
-    border-radius: 24px;
-    position: relative;
+.body1 {
+  width: 453px;
+  height: 644px;
+  left: 85px;
+  margin: 0;
+  border-radius: 24px;
+  position: relative;
 }
 
-.aziza{
-    width: 208px;
-    height: 80px;
-    top: 42px;
-    left: 23px;
-    border-radius: 16px;
-    position: absolute;
-    background-color: white;
+.aziza {
+  width: 208px;
+  height: 80px;
+  top: 42px;
+  left: 23px;
+  border-radius: 16px;
+  position: absolute;
+  background-color: white;
 }
 
-.avatar{
-    top: 18px;
-    left: 18px;
+.avatar1 {
+  width: 44px;
+  height: 44px;
+  top: 18px;
+  left: 18px;
+  position: absolute;
 }
 
-.aziza h4{
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 12px;
-    line-height: 14.52px;
-    width: 99px;
-    height: 15px;
-    margin: 0;
-    position: relative;
-    top: 20.5px;
-    left: 78px;
-    color: #232E40;
+.aziza h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 14.52px;
+  width: 99px;
+  height: 15px;
+  margin: 0;
+  position: relative;
+  top: 20.5px;
+  left: 78px;
+  color: #232e40;
 }
 
-.stars1{
-    width: 112px;
-    height: 16px;
-    margin: 0;
-    position: relative;
-    top: 26.5px;
-    left: 78px;
+.stars1 {
+  width: 112px;
+  height: 16px;
+  margin: 0;
+  position: relative;
+  top: 26.5px;
+  left: 78px;
 }
 
-.andrey{
-    width: 208px;
-    height: 80px;
-    top: 172px;
-    left: 364px;
-    border-radius: 16px;
-    position: absolute;
-    background-color: white;
+.andrey {
+  width: 208px;
+  height: 80px;
+  top: 172px;
+  left: 364px;
+  border-radius: 16px;
+  position: absolute;
+  background-color: white;
 }
 
-.andrey h4{
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 12px;
-    line-height: 14.52px;
-    width: 99px;
-    height: 15px;
-    margin: 0;
-    position: relative;
-    top: 20.5px;
-    left: 78px;
-    text-wrap: nowrap;
-    color: #232E40;
+.andrey h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 14.52px;
+  width: 99px;
+  height: 15px;
+  margin: 0;
+  position: relative;
+  top: 20.5px;
+  left: 78px;
+  text-wrap: nowrap;
+  color: #232e40;
 }
 
-.body2{
-    width: 364px;
-    height: 256px;
-    top: 298px;
-    border-radius: 24px;
-    border: 10px white;
-    position: absolute;
+.body2 {
+  width: 364px;
+  height: 256px;
+  top: 298px;
+  border-radius: 24px;
+  border: 10px white;
+  position: absolute;
 }
 
-.bodybox5{
-    width: 486px;
-    height: 528px;
-    top: 58px;
-    left: 612px;
-    position: absolute;
-    margin: 0;
-    display: grid;
+.bodybox5 {
+  width: 486px;
+  height: 528px;
+  top: 58px;
+  left: 612px;
+  position: absolute;
+  margin: 0;
+  display: grid;
 }
 
-.bodybox6{
-    width: 486px;
-    height: 152px;
-    position: relative;
+.bodybox6 {
+  width: 486px;
+  height: 152px;
+  position: relative;
 }
 
-.number{
-    width: 46px;
-    height: 34px;
-    border-radius: 12px;
-    margin: 0;
-    padding: 6px 12px 6px 12px;
-    font-family: 'Onest', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21.6px;
-    background-color: rgba(50, 118, 255, 0.2);
-    color: #3276FF;
+.number {
+  width: 46px;
+  height: 34px;
+  border-radius: 12px;
+  margin: 0;
+  padding: 6px 12px 6px 12px;
+  font-family: "Onest", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.6px;
+  background-color: rgba(50, 118, 255, 0.2);
+  color: #3276ff;
 }
 
-.bodybox6 h3{
-    font-family: 'Forma DJR Banner', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    color: #232E40;
-    line-height: 21.6px;
-    position: relative;
-    top: -10px;
+.bodybox6 h3 {
+  font-family: "Forma DJR Banner", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #232e40;
+  line-height: 21.6px;
+  position: relative;
+  top: -10px;
 }
 
-.bodybox6 p{
-    font-family: 'Onest', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #777E90;
-    line-height: 24px;
-    position: relative;
-    top: -16px;
+.bodybox6 p {
+  font-family: "Onest", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #777e90;
+  line-height: 24px;
+  position: relative;
+  top: -16px;
 }
-                                        /* bodybox1 style end */
-                                        /* bodybox9 style start */
-.bodybox9{
-    width: 1200px;
-    height: 978px;
-    top: 352px;
-    position: relative;
-    margin: 0;
-    left: 120px;
-    display: flex;
-}
-
-.bodybox10{
-    width: 700px;
-    height: 86px;
-    position: absolute;
-    margin: 0 auto;
-    left: 250px;
-    align-items: center;
-    justify-content: center;
-    display: block;
+/* bodybox1 style end */
+/* bodybox9 style start */
+.bodybox9 {
+  width: 1200px;
+  height: 978px;
+  top: 352px;
+  position: relative;
+  margin: 0;
+  left: 120px;
+  display: flex;
 }
 
-.bodybox10 h1{
-    font-family: 'Forma DJR Banner', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    color: #232E40;
-    line-height: 44.8px;
-    text-align: center;
-    letter-spacing: 2%;
-    text-wrap: nowrap;
+.bodybox10 {
+  width: 700px;
+  height: 86px;
+  position: absolute;
+  margin: 0 auto;
+  left: 250px;
+  align-items: center;
+  justify-content: center;
+  display: block;
 }
 
-.bodybox10 p{
-    font-family: 'Onest', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25.2px;
-    text-align: center;
-    color: #777E90;
-    letter-spacing: 2%;
-    text-wrap: nowrap;
+.bodybox10 h1 {
+  font-family: "Forma DJR Banner", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #232e40;
+  line-height: 44.8px;
+  text-align: center;
+  letter-spacing: 2%;
+  text-wrap: nowrap;
 }
 
-.bodybox11{
-    width: 1200px;
-    height: 852px;
-    top: 126px;
-    position: relative;
-    margin: 0;
-    display: flex;
+.bodybox10 p {
+  font-family: "Onest", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25.2px;
+  text-align: center;
+  color: #777e90;
+  letter-spacing: 2%;
+  text-wrap: nowrap;
+}
+
+.bodybox11 {
+  width: 1200px;
+  height: 852px;
+  top: 126px;
+  position: relative;
+  margin: 0;
+  display: flex;
 }
 
 .grid {
-    width: 1200px;
-    height: 852px;
-    display: grid;
-    gap: 24px;
-    position: relative;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(4, 1fr);
+  width: 1200px;
+  height: 852px;
+  display: grid;
+  gap: 24px;
+  position: relative;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
-.card1{
-    width: 282px;
-    height: 410px;
-    position: inherit;
-    margin: 0;
-    display: flex;
+.card1 {
+  width: 282px;
+  height: 410px;
+  position: inherit;
+  margin: 0;
+  display: flex;
 }
 
-.cardimage{
-    width: 282px;
-    height: 282px;
-    position: relative;
+.cardimage {
+  width: 282px;
+  height: 282px;
+  position: relative;
 }
 
-.cardbar1{
-    width: 282px;
-    height: 46px;
-    top: 294px;
-    display: flex;
-    position: absolute;
+.cardbar1 {
+  width: 282px;
+  height: 46px;
+  top: 294px;
+  display: flex;
+  position: absolute;
 }
 
-.cardbar1 h3{
-    font-family: 'Onest', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    color: #232E40;
-    margin: 0;
-    line-height: 22.4px;
-    text-wrap: nowrap;
-    display: flex;
+.cardbar1 h3 {
+  font-family: "Onest", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #232e40;
+  margin: 0;
+  line-height: 22.4px;
+  text-wrap: nowrap;
+  display: flex;
 }
 
-.cardbar1 p{
-    font-family: 'Onest', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: #777E90;
-    line-height: 19.6px;
-    text-wrap: nowrap;
-    position: absolute;
-    top: 26px;
+.cardbar1 p {
+  font-family: "Onest", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #777e90;
+  line-height: 19.6px;
+  text-wrap: nowrap;
+  position: absolute;
+  top: 26px;
 }
 
-.cardbar2{
-    width: 282px;
-    height: 58px;
-    top: 352px;
-    display: flex;
-    position: absolute;
+.cardbar2 {
+  width: 282px;
+  height: 58px;
+  top: 352px;
+  display: flex;
+  position: absolute;
 }
 
-.cardbar2 h2{
-    font-family: 'Onest', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 22.4px;
-    letter-spacing: 2%;
-    left: 16px;
-    position: relative;
-    margin: 0;
-    word-wrap: none;
-    align-items: center;
-    justify-content: center;
-    width: 61px;
-    height: 22px;
-    top: 18px;
+.cardbar2 h2 {
+  font-family: "Onest", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22.4px;
+  letter-spacing: 2%;
+  left: 16px;
+  position: relative;
+  margin: 0;
+  word-wrap: none;
+  align-items: center;
+  justify-content: center;
+  width: 61px;
+  height: 22px;
+  top: 18px;
 }
 
-.cardbar2 h4{
-    font-family: 'Onest', sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16.8px;
-    letter-spacing: 2%;
-    position: relative;
-    color: #777E90;
-    margin: 0;
-    align-items: center;
-    justify-content: center;
-    width: 34px;
-    height: 17px;
-    top: 20.5px;
-    left: 16px;
+.cardbar2 h4 {
+  font-family: "Onest", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16.8px;
+  letter-spacing: 2%;
+  position: relative;
+  color: #777e90;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 17px;
+  top: 20.5px;
+  left: 16px;
 }
 
-.reserve{
-    cursor: pointer;
-    width: 172px;
-    height: 58px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    margin: 0;
-    border-radius: 16px;
-    background-color: #ccdcfe;
-    outline: none;
-    border: none;
+.reserve {
+  cursor: pointer;
+  width: 172px;
+  height: 58px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  border-radius: 16px;
+  background-color: rgba(50, 118, 255, 20%);
+  outline: none;
+  border: none;
 }
 
-.reserve a{
-    color: #3276FF;
-    font-family: 'Onest', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 25.6px;
-    letter-spacing: 2%;
-    width: 172px;
-}
-                                            /* bodybox9 style end */
-                                            /* bodybox12 style start */
-.bodybox12{
-    width: 1200px;
-    height: 408px;
-    left: 120px;
-    position: relative;
-    margin: 0;
-    border-radius: 40px;
-    top: 453px;
+.reserve a {
+  color: #3276ff;
+  font-family: "Onest", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25.6px;
+  letter-spacing: 2%;
+  width: 172px;
 }
 
-.bodybox13{
-    width: 630px;
-    height: 288px;
-    left: 80px;
-    position: absolute;
-    margin: 0;
-    top: 60px;
-    display: flex;
+.reserve:hover {
+  background-color: #232e40;
 }
 
-.bodybox13 h1{
-    font-family: 'Forma DJR Banner', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    color: #232E40;
-    line-height: 44.8px;
-    letter-spacing: 2%;
+.reserve a:hover {
+  color: #fafafa;
+}
+/* bodybox9 style end */
+/* bodybox12 style start */
+.bodybox12 {
+  width: 1200px;
+  height: 408px;
+  left: 120px;
+  position: relative;
+  margin: 0;
+  border-radius: 40px;
+  top: 453px;
 }
 
-.bodybox13 p{
-    font-family: 'Onest', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    color: #777E90;
-    line-height: 27px;
-    position: absolute;
-    top: 106px;
-    width: 611px;
-    height: 108px;
-    margin: 0;
+.bodybox13 {
+  width: 630px;
+  height: 288px;
+  left: 80px;
+  position: absolute;
+  margin: 0;
+  top: 60px;
+  display: flex;
 }
 
-.join{
-    top: 230px;
-    width: 183px;
-    height: 58px;
-    border-radius: 16px;
-    background-color: #3276FF;
-    display: flex;
-    position: absolute;
-    align-items: center;
-    border: none;
-    right: 447px;
-    cursor: pointer;
+.bodybox13 h1 {
+  font-family: "Forma DJR Banner", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #232e40;
+  line-height: 44.8px;
+  letter-spacing: 2%;
 }
 
-.join a{
-    font-family: 'Onest', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 25.6px;
-    color: white;
-}
-                                        /* bodybox12 style end */
-                                        /* bodybox14 style start */
-
-.bodybox14{
-    width: 1200px;
-    height: 463px;
-    left: 120px;
-    position: relative;
-    margin: 0;
-    display: flex;
-    top: 553px;
+.bodybox13 p {
+  font-family: "Onest", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #777e90;
+  line-height: 27px;
+  position: absolute;
+  top: 106px;
+  width: 611px;
+  height: 108px;
+  margin: 0;
 }
 
-.bodybox14 h1{
-    font-family: 'Forma DJR Banner', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    color: #232E40;
-    line-height: 44.8px;
-    letter-spacing: 2%;
-    width: 1112px;
-    height: 45px;
-    margin: 0;
+.join {
+  top: 230px;
+  width: 183px;
+  height: 58px;
+  border-radius: 16px;
+  background-color: #3276ff;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border: none;
+  right: 447px;
+  cursor: pointer;
 }
 
-.back-btn{
-    width: 44px;
-    height: 44px;
-    margin: 0;
-    left: 1096px;
-    display: flex;
-    position: absolute;
-    border: none;
-    align-items: center;
-    cursor: pointer;
-    background: none;
-    border-radius: 24px;
+.join:hover {
+  background-color: #232e40;
 }
 
-.back-btn:hover{
-    border: 1px solid;
-    border-color: rgba(183, 191, 213, 0.2);
+.join a {
+  font-family: "Onest", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25.6px;
+  color: white;
+}
+/* bodybox12 style end */
+/* bodybox14 style start */
+
+.bodybox14 {
+  width: 1200px;
+  height: 463px;
+  left: 120px;
+  position: relative;
+  margin: 0;
+  display: flex;
+  top: 553px;
 }
 
-.next-btn{
-    width: 44px;
-    height: 44px;
-    left: 1156px;
-    margin: 0;
-    display: flex;
-    position: absolute;
-    border: none;
-    align-items: center;
-    cursor: pointer;
-    background: none;
-    border-radius: 24px;
+.bodybox14 h1 {
+  font-family: "Forma DJR Banner", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #232e40;
+  line-height: 44.8px;
+  letter-spacing: 2%;
+  width: 1112px;
+  height: 45px;
+  margin: 0;
 }
 
-.next-btn:hover{
-    border: 1px solid;
-    border-color: rgba(183, 191, 213, 0.2);
+.back-btn {
+  width: 44px;
+  height: 44px;
+  margin: 0;
+  left: 1096px;
+  display: flex;
+  position: absolute;
+  border: none;
+  align-items: center;
+  cursor: pointer;
+  background: none;
+  border-radius: 24px;
 }
-                                        /* bodybox14 style end */
+
+.back-btn:hover {
+  border: 1px solid;
+  border-color: rgba(183, 191, 213, 0.2);
+}
+
+.next-btn {
+  width: 44px;
+  height: 44px;
+  left: 1156px;
+  margin: 0;
+  display: flex;
+  position: absolute;
+  border: none;
+  align-items: center;
+  cursor: pointer;
+  background: none;
+  border-radius: 24px;
+}
+
+.next-btn:hover {
+  border: 1px solid;
+  border-color: rgba(183, 191, 213, 0.2);
+}
+/* bodybox14 style end */

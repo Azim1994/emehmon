@@ -1,337 +1,355 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Onest:wght@100;400;500&display=swap');
-@import url('https://fonts.cdnfonts.com/css/forma-djr-banner');
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Onest:wght@100;400;500&display=swap");
+@import url("https://fonts.cdnfonts.com/css/forma-djr-banner");
 
-.header{
-    height: 847px;
-    top: 0;
-    margin: 0;
-    position: relative;
+.header {
+  height: 847px;
+  top: 0;
+  margin: 0;
+  position: relative;
 }
-                            /* header-box1-4 style start */
-.header-box{
-    position: absolute;
-    width: 1200px;
-    height: 152px;
-    margin: 0;
-    top: 188px;
-    display: flex;
-    transform: translate(120px);
-}
-
-.header-box1{
-    width: 700px;
-    height: 138px;
-    margin: 0;
-    position: absolute;
-    display: flex;
+/* header-box1-4 style start */
+.header-box {
+  position: absolute;
+  width: 1200px;
+  height: 152px;
+  margin: 0;
+  top: 188px;
+  display: flex;
+  transform: translate(120px);
 }
 
-.header-box2{
-    width: 384px;
-    height: 152px;
-    position: absolute;
-    left: 816px;
-    display: flex;
+.header-box1 {
+  width: 700px;
+  height: 138px;
+  margin: 0;
+  position: absolute;
+  display: flex;
 }
 
-.header-box3{
-    width: 380px;
-    height: 78px;
-    top: 94px;
-    display: flex;
-    position: absolute;
-    top: 0;
+.header-box2 {
+  width: 384px;
+  height: 152px;
+  position: absolute;
+  left: 816px;
+  display: flex;
 }
 
-.header-box4{
-    width: 383px;
-    height: 58px;
-    bottom: 0;
-    position: absolute;
-    display: flex;
+.header-box3 {
+  width: 380px;
+  height: 78px;
+  top: 94px;
+  display: flex;
+  position: absolute;
+  top: 0;
 }
 
-.header-box1 h1{
-    position: absolute;
-    width: 750px;
-    height: 138px;
-    font-family: 'Forma DJR Banner', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 49px;
-    color: white;
-    margin: 0;
-    align-items: center;
+.header-box4 {
+  width: 383px;
+  height: 58px;
+  bottom: 0;
+  position: absolute;
+  display: flex;
 }
 
-.header-box3 p{
-    color: #B7BFD5;
-    font-family: 'Onest', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25.6px;
-    letter-spacing: 2%;
-    margin: 0;
-    left: 2px;
-    position: absolute;
+.header-box1 h1 {
+  position: absolute;
+  width: 750px;
+  height: 138px;
+  font-family: "Forma DJR Banner", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 49px;
+  color: white;
+  margin: 0;
+  align-items: center;
 }
 
-.show{
-    background: #3276FF;
-    background-size: 30%;
-    height: 58px;
-    width: 129px;
-    bottom: 0;
-    left: 0;
-    border-radius: 16px;
-    border: none;
-    display: grid;
-    align-items: center;
-    text-align: center;
-    text-decoration: none;
-    position: absolute;
-    cursor: pointer;
+.header-box3 p {
+  color: #b7bfd5;
+  font-family: "Onest", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.6px;
+  letter-spacing: 2%;
+  margin: 0;
+  left: 2px;
+  position: absolute;
 }
 
-.show a{
-    font-size: 16px;
-    line-height: 25.6px;  
-    font-family: 'Onest', sans-serif;
-    font-weight: 500;
-    color: white;
+.show {
+  background: #3276ff;
+  background-size: 30%;
+  height: 58px;
+  width: 129px;
+  bottom: 0;
+  left: 0;
+  border-radius: 16px;
+  border: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  cursor: pointer;
+  padding: 0;
 }
 
-.showvideo{
-    height: 58px;
-    width: 230px;
-    display: flex;
-    background: none;
-    border: none;
-    position: absolute;
-    align-items: center;
-    cursor: pointer;
-    right: 0;
+.show:hover {
+  background-color: #232e40;
 }
 
-.showvideo a{
-    font-size: 16px;
-    line-height: 25.6px;  
-    font-family: 'Onest', sans-serif;
-    font-weight: 500;
-    color: white;
-    width: 150px;
-    height: 26px;
-    position: absolute;
-    right: 24px;
+.show a {
+  font-size: 16px;
+  line-height: 25.6px;
+  font-family: "Onest", sans-serif;
+  font-weight: 500;
+  color: white;
 }
 
-.playimage{
-    width: 24px;
-    height: 24px;;
-    position: absolute;
-    right: 182px;
-    top: 17px;
-    cursor: pointer;
+.showvideo {
+  height: 58px;
+  width: 230px;
+  display: flex;
+  background: none;
+  border: none;
+  position: absolute;
+  align-items: center;
+  cursor: pointer;
+  right: 0;
 }
 
-.header-box4 a{
-    font-family: 'Onest', sans-serif;
-    font-weight: 500;
-    line-height: 25.6px;
-    margin: 0;
-    position: absolute;
-}
-                                /* header-box1-4 style end */
-                                
-.header-box5{
-    width: 1320px;
-    height: 310px;
-    top: 390px;
-    position: absolute;
-    display: flex;
+.showvideo:hover {
+  border-radius: 16px;
+  background-color: #3276ff;
 }
 
-                                /* header-box6 tab style start */
-.header-box6{
-    width: 1200px;
-    height: 279px;
-    top: 750px;
-    position: absolute;
-    left: 120px;
-    background-color: white;
-    border-radius: 40px;
+.showvideo a {
+  font-size: 16px;
+  line-height: 25.6px;
+  font-family: "Onest", sans-serif;
+  font-weight: 500;
+  color: white;
+  width: 150px;
+  height: 26px;
+  position: absolute;
+  right: 24px;
 }
 
-.tab-box{
-    width: 1104px;
-    display: flex;
-    padding: 38px;
-    border-bottom: 1px solid #B7BFD5;
-    gap: 24px;
-    position: relative;
+.playimage {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 182px;
+  top: 17px;
+  cursor: pointer;
 }
 
-.tab-box .tab-btn{
-    font-size: 15px;
-    width: auto;
-    font-family: 'Onest', sans-serif;
-    font-weight: 500;
-    line-height: 19.5px;
-    background: none;
-    border: none;
-    color: #777E90;
-    cursor: pointer;
-    position: relative;
-    left: -44px;
+.header-box4 a {
+  font-family: "Onest", sans-serif;
+  font-weight: 500;
+  line-height: 25.6px;
+  margin: 0;
+  position: absolute;
+}
+/* header-box1-4 style end */
+
+.header-box5 {
+  width: 1320px;
+  height: 310px;
+  top: 390px;
+  position: absolute;
+  display: flex;
 }
 
-.line{
-    position: absolute;
-    top: 97.5px;
-    left: 0px;
-    width: 56px;
-    height: 1px;
-    background-color: #3276FF;
+/* header-box6 tab style start */
+.header-box6 {
+  width: 1200px;
+  height: 279px;
+  top: 750px;
+  position: absolute;
+  left: 120px;
+  background-color: white;
+  border-radius: 40px;
 }
 
-.tab-box .tab-btn.active{
-    color: #232E40;
-}
-                                /* header-box5 form style start */
-.form-inline{
-    display: flex;
-    flex-flow: row wrap;
-    gap: 24px;
-}
-
-.field-holder1{
-    display: flex;
-    position: relative;
-    top: 28px;
-    width: 220px;
-    height: 56px;
-    margin: 0;
+.tab-box {
+  width: 1104px;
+  display: flex;
+  padding: 38px;
+  border-bottom: 1px solid #b7bfd5;
+  gap: 24px;
+  position: relative;
 }
 
-.field-holder{
-    display: flex;
-    position: relative;
-    top: 28px;
-    width: 200px;
-    height: 56px;
-    margin: 0;
+.tab-box .tab-btn {
+  font-size: 15px;
+  width: auto;
+  font-family: "Onest", sans-serif;
+  font-weight: 500;
+  line-height: 19.5px;
+  background: none;
+  border: none;
+  color: #777e90;
+  cursor: pointer;
+  position: relative;
+  left: -44px;
 }
 
-.field-holder input{
-    border-radius: 16px;
-    background: #F8F8FA;
-    border: none;
-    height: 56px;
-    width: 200px;
-    position: relative;
-    bottom: -2px;
-    outline: none;
-    display: block;
-    font-size: 16px;
-    font-family: 'Onest', sans-serif;
-    font-weight: 400;
-    color: #232E40;
-    padding-left: 52px;  
+.tab-box .tab-btn:hover {
+  color: #3276ff;
 }
 
-.field-holder1 input{
-    border-radius: 16px;
-    background: #F8F8FA;
-    border: none;
-    height: 56px;
-    width: 220px;
-    position: relative;
-    bottom: -2px;
-    outline: none;
-    font-size: 16px;
-    font-family: 'Onest', sans-serif;
-    font-weight: 400;
-    color: #232E40;
-    padding-left: 52px; 
+.line {
+  position: absolute;
+  top: 97.5px;
+  left: 0px;
+  width: 56px;
+  height: 1px;
+  background-color: #3276ff;
 }
 
-label{
-    position: absolute;
-    top: 0;
-    left: 0;
-    top: -30px;
-    font-size: 14px;
-    font-family: 'Onest', sans-serif;
-    font-weight: 400;
-    color: #777E90;
+.tab-box .tab-btn.active {
+  color: #232e40;
+}
+/* header-box5 form style start */
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 24px;
 }
 
-.content-box{
-    width: 1104px;
-    height: 86px;
-    position: relative;
-    top: 48px;
-    display: flex;
+.field-holder1 {
+  display: flex;
+  position: relative;
+  top: 28px;
+  width: 220px;
+  height: 56px;
+  margin: 0;
 }
 
-.content-box button{
-    font-family: 'Onest', sans-serif;
-    font-weight: 500;
-    color: white;
-    font-size: 16px;
-    line-height: 25.6px;
-    background: #3276FF;
-    border-radius: 16px;
-    border: none;
-    width: 188px;
-    height: 58px;
-    top: 28px;
-    white-space: nowrap;
-    position: relative;
+.field-holder {
+  display: flex;
+  position: relative;
+  top: 28px;
+  width: 200px;
+  height: 56px;
+  margin: 0;
 }
 
-.content input::placeholder{
-    font-family: 'Onest', sans-serif;
-    font-weight: 400;
-    color: #232E40;
-    font-size: 16px;
-    line-height: 20.8px;
-    border: none;
-    background: none;
+.field-holder input {
+  border-radius: 16px;
+  background: #f8f8fa;
+  border: none;
+  height: 56px;
+  width: 200px;
+  position: relative;
+  bottom: -2px;
+  outline: none;
+  display: block;
+  font-size: 16px;
+  font-family: "Onest", sans-serif;
+  font-weight: 400;
+  color: #232e40;
+  padding-left: 52px;
 }
 
-.icon{
-    height: 24px;
-    width: 24px;
-    position: absolute;
-    left: 16px;
-    top: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+.field-holder1 input {
+  border-radius: 16px;
+  background: #f8f8fa;
+  border: none;
+  height: 56px;
+  width: 220px;
+  position: relative;
+  bottom: -2px;
+  outline: none;
+  font-size: 16px;
+  font-family: "Onest", sans-serif;
+  font-weight: 400;
+  color: #232e40;
+  padding-left: 52px;
 }
 
-.search1{
-    height: 24px;
-    width: 24px;
-    position: absolute;
-    top: 44px;
-    left: 940px;
-    cursor: pointer;
+label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  top: -30px;
+  font-size: 14px;
+  font-family: "Onest", sans-serif;
+  font-weight: 400;
+  color: #777e90;
 }
 
-.search a{
-    color: white;
-    font-family: 'Onest', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 25.6px;
-    left: 15px;
-    position: relative;
+.content-box {
+  width: 1104px;
+  height: 86px;
+  position: relative;
+  top: 48px;
+  display: flex;
 }
 
-.search{
-    cursor: pointer;
+.content-box button {
+  font-family: "Onest", sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 16px;
+  line-height: 25.6px;
+  background: #3276ff;
+  border-radius: 16px;
+  border: none;
+  width: 188px;
+  height: 58px;
+  top: 28px;
+  white-space: nowrap;
+  position: relative;
 }
-                                /* header-box6 style end */
+
+.content input::placeholder {
+  font-family: "Onest", sans-serif;
+  font-weight: 400;
+  color: #232e40;
+  font-size: 16px;
+  line-height: 20.8px;
+  border: none;
+  background: none;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.search1 {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  top: 44px;
+  left: 940px;
+  cursor: pointer;
+}
+
+.search a {
+  color: white;
+  font-family: "Onest", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25.6px;
+  left: 15px;
+  position: relative;
+}
+
+.search {
+  cursor: pointer;
+}
+
+.search:hover {
+  background-color: #777e90;
+}
+/* header-box6 style end */

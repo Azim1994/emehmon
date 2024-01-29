@@ -1,302 +1,300 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Onest:wght@100;400;500&display=swap');
-@import url('https://fonts.cdnfonts.com/css/forma-djr-banner');
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Onest:wght@100;400;500&display=swap");
+@import url("https://fonts.cdnfonts.com/css/forma-djr-banner");
 
-                                    /* first footer box style start */
-.bodybox16{
-    width: 100%;
-    height: 585px;
-    top: 4118px;
-    left: 0;
-    position: absolute;
-    display: flex;
-    margin: 0;
-    background-color: rgba(35, 46, 64, 0.9);
-}
-
-.bodybox17{
-    width: 1506px;
-    height: 425px;
-    left: 120px;
-    top: 80px;
-    position: relative;
-    display: flex;
+/* first footer box style start */
+.bodybox16 {
+  width: 100%;
+  height: 585px;
+  top: 4118px;
+  left: 0;
+  position: absolute;
+  display: flex;
+  margin: 0;
+  background-color: rgba(35, 46, 64, 0.9);
 }
 
-.titlebox{
-    width: 1200px;
-    height: 45px;
-    display: flex;
-    position: absolute;
-    top: 0;
+.bodybox17 {
+  width: 1506px;
+  height: 425px;
+  left: 120px;
+  top: 80px;
+  position: relative;
+  display: flex;
 }
 
-.titlebox h1{
-    font-family: 'Forma DJR Banner', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    color: #fff;
-    margin: 0;
-    line-height: 44.8px;
-    letter-spacing: 2%;
+.titlebox {
+  width: 1200px;
+  height: 45px;
+  display: flex;
+  position: absolute;
+  top: 0;
 }
 
-.button-prev-slide{
-    width: 44px;
-    height: 44px;
-    left: 1096px;
-    margin: 0;
-    display: flex;
-    position: absolute;
-    border: none;
-    align-items: center;
-    cursor: pointer;
-    background: none;
-    border-radius: 24px;
+.titlebox h1 {
+  font-family: "Forma DJR Banner", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+  margin: 0;
+  line-height: 44.8px;
+  letter-spacing: 2%;
 }
 
-.button-prev-slide:hover{
-    border: 1px solid;
-    border-color: rgba(183, 191, 213, 0.2)
+.button-prev-slide {
+  width: 44px;
+  height: 44px;
+  left: 1096px;
+  margin: 0;
+  display: flex;
+  position: absolute;
+  border: none;
+  align-items: center;
+  cursor: pointer;
+  background: none;
+  border-radius: 24px;
 }
 
-.button-next-slide{
-    width: 44px;
-    height: 44px;
-    left: 1156px;
-    margin: 0;
-    display: flex;
-    position: absolute;
-    border: none;
-    align-items: center;
-    cursor: pointer;
-    background: none;
-    border-radius: 24px;
+.button-prev-slide:hover {
+  border: 1px solid;
+  border-color: rgba(183, 191, 213, 0.2);
 }
 
-.button-next-slide:hover{
-    border: 1px solid;
-    border-color: rgba(183, 191, 213, 0.2);
-}
-                                    /* first footer box style end */
-                                    /* second footer box style start */
-.bodybox18{
-    width: 100%;
-    height: 497px;
-    top: 4703px;
-    left: 0;
-    position: absolute;
-    display: flex;
-    margin: 0;
-    background-color: #F8F8FA;
+.button-next-slide {
+  width: 44px;
+  height: 44px;
+  left: 1156px;
+  margin: 0;
+  display: flex;
+  position: absolute;
+  border: none;
+  align-items: center;
+  cursor: pointer;
+  background: none;
+  border-radius: 24px;
 }
 
-.footercontent{
-    width: 1506px;
-    height: 497px;
-    left: 120px;
-    position: relative;
-    display: flex;
+.button-next-slide:hover {
+  border: 1px solid;
+  border-color: rgba(183, 191, 213, 0.2);
+}
+/* first footer box style end */
+/* second footer box style start */
+.bodybox18 {
+  width: 100%;
+  height: 497px;
+  top: 4703px;
+  left: 0;
+  position: absolute;
+  display: flex;
+  margin: 0;
+  background-color: #f8f8fa;
 }
 
-.footerbox{
-    width: 1200px;
-    height: 238px;
-    top: 60px;
-    position: absolute;
-    display: flex;
-}
-                                    /* bodybox19 style start */
-.bodybox19{
-    width: 282px;
-    height: 437px;
-    position: absolute;
-    display: flex;
+.footercontent {
+  width: 1506px;
+  height: 497px;
+  left: 120px;
+  position: relative;
+  display: flex;
 }
 
-.logofooter{
-    width: 183.58px;
-    height: 48px;
-    position: absolute;
-    cursor: pointer;
-    display: flex;
-    background-color: #F8F8FA;
+.footerbox {
+  width: 1200px;
+  height: 238px;
+  top: 60px;
+  position: absolute;
+  display: flex;
+}
+/* bodybox19 style start */
+.bodybox19 {
+  width: 282px;
+  height: 437px;
+  position: absolute;
+  display: flex;
 }
 
-.logo{
-    width: 48px;
-    height: 48px;
-    position: absolute;
+.logofooter {
+  width: 183.58px;
+  height: 48px;
+  position: absolute;
+  cursor: pointer;
+  display: flex;
+  background-color: #f8f8fa;
 }
 
-.emehmon{
-    width: 122px;
-    height: 18px;
-    position: absolute;
-    top: 15.82px;
-    left: 61.9px;
+.bodybox19 p {
+  width: 282px;
+  height: 44px;
+  top: 64px;
+  margin: 0;
+  position: absolute;
+  font-family: "Onest", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22.4px;
+  color: #777e90;
 }
 
-.bodybox19 p{
-    width: 282px;
-    height: 44px;
-    top: 64px;
-    margin: 0;
-    position: absolute;
-    font-family: 'Onest', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 22.4px;
-    color: #777E90;
+.fb {
+  width: 24px;
+  height: 24px;
+  top: 156px;
+  cursor: pointer;
+  position: absolute;
+  margin: 0;
+  background-image: url(/public/images/fb.svg);
 }
 
-.fb{
-    width: 24px;
-    height: 24px;
-    top: 156px;
-    cursor: pointer;
-    position: absolute;
-    margin: 0;
-    background-image: url(/public/images/fb.jpg);
+.insta {
+  width: 24px;
+  height: 24px;
+  top: 156px;
+  left: 48px;
+  cursor: pointer;
+  position: absolute;
+  margin: 0;
+  background-image: url(/public/images/insta.svg);
 }
 
-.insta{
-    width: 24px;
-    height: 24px;
-    top: 156px;
-    left: 48px;
-    cursor: pointer;
-    position: absolute;
-    margin: 0;
-    background-image: url(/public/images/insta.jpg);
+.tg {
+  width: 24px;
+  height: 24px;
+  top: 156px;
+  left: 96px;
+  cursor: pointer;
+  position: absolute;
+  margin: 0;
+  background-image: url(/public/images/tg.svg);
+}
+/* bodybox19 style end */
+/* bodybox20 style start */
+.bodybox20 {
+  width: 82px;
+  height: 143px;
+  top: 64px;
+  left: 419px;
+  position: absolute;
+  margin: 0;
+  display: flex;
 }
 
-.tg{
-    width: 24px;
-    height: 24px;
-    top: 156px;
-    left: 96px;
-    cursor: pointer;
-    position: absolute;
-    margin: 0;
-    background-image: url(/public/images/tg.jpg);
-}
-                                /* bodybox19 style end */
-                                /* bodybox20 style start */
-.bodybox20{
-    width: 82px;
-    height: 143px;
-    top: 64px;
-    left: 419px;
-    position: absolute;
-    margin: 0;
-    display: flex;
+.list {
+  position: relative;
+  white-space: nowrap;
+  display: grid;
+  list-style: none;
+  padding: 0;
+  gap: 12px;
 }
 
-.list{
-    position: relative;
-    white-space: nowrap;
-    display: grid;
-    list-style: none;
-    padding: 0;
-    gap: 12px;
+.list a {
+  font-family: "Onest", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19.12px;
+  color: #777e90;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.list a{
-    font-family: 'Onest', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 19.12px;
-    color: #777E90;
-    text-decoration: none;
-    cursor: pointer;
+.list a:hover {
+  color: #3276ff;
 }
-                                /* bodybox20 style end */
-                                /* bodybox21 style start */
-.bodybox21{
-    width: 175px;
-    height: 174px;
-    top: 64px;
-    left: 646px;
-    position: relative;
-    margin: 0;
-    display: flex;
+/* bodybox20 style end */
+/* bodybox21 style start */
+.bodybox21 {
+  width: 175px;
+  height: 174px;
+  top: 64px;
+  left: 646px;
+  position: relative;
+  margin: 0;
+  display: flex;
 }
 
-.list1{
-    position: relative;
-    white-space: nowrap;
-    display: grid;
-    list-style: none;
-    padding: 0;
-    gap: 12px;
+.list1 {
+  position: relative;
+  white-space: nowrap;
+  display: grid;
+  list-style: none;
+  padding: 0;
+  gap: 12px;
 }
 
-.list1 a{
-    font-family: 'Onest', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 19.12px;
-    color: #777E90;
-    text-decoration: none;
-    cursor: pointer;
-}
-                                /* bodybox21 style end */
-                                /* bodybox22 style start */
-.bodybox22{
-    width: 234px;
-    height: 174px;
-    top: 64px;
-    left: 966px;
-    position: absolute;
-    margin: 0;
-    display: flex;
+.list1 a {
+  font-family: "Onest", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19.12px;
+  color: #777e90;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.list2{
-    position: relative;
-    white-space: nowrap;
-    display: grid;
-    list-style: none;
-    padding: 0;
-    gap: 12px;
+.list1 a:hover {
+  color: #3276ff;
+}
+/* bodybox21 style end */
+/* bodybox22 style start */
+.bodybox22 {
+  width: 234px;
+  height: 174px;
+  top: 64px;
+  left: 966px;
+  position: absolute;
+  margin: 0;
+  display: flex;
 }
 
-.list2 a{
-    font-family: 'Onest', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 19.12px;
-    color: #777E90;
-    text-decoration: none;
-    cursor: pointer;
+.list2 {
+  position: relative;
+  white-space: nowrap;
+  display: grid;
+  list-style: none;
+  padding: 0;
+  gap: 12px;
 }
 
-.footerline{
-    border: 1px solid #B7BFD5;
-    opacity: 20%;
-    top: 358px;
-    position: absolute;
+.list2 a {
+  font-family: "Onest", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19.12px;
+  color: #777e90;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.copyright{
-    width: 299px;
-    height: 19px;
-    position: absolute;
-    left: 451px;
-    top: 360px;
-    display: flex;
+.list2 a:hover {
+  color: #3276ff;
 }
 
-.copyright p{
-    width: 299px;
-    height: 19px;
-    position: relative;
-    color: #777E90;
-    font-family: 'Onest', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 19.12px;
-    text-wrap: nowrap;
+.footerline {
+  border: 1px solid #b7bfd5;
+  opacity: 20%;
+  top: 358px;
+  position: absolute;
 }
-                                /* bodybox22 style end */
+
+.copyright {
+  width: 299px;
+  height: 19px;
+  position: absolute;
+  left: 451px;
+  top: 360px;
+  display: flex;
+}
+
+.copyright p {
+  width: 299px;
+  height: 19px;
+  position: relative;
+  color: #777e90;
+  font-family: "Onest", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19.12px;
+  text-wrap: nowrap;
+}
+/* bodybox22 style end */
