@@ -497,6 +497,10 @@
   cursor: pointer;
 }
 
+.lookfor:hover {
+  background-color: #1d2635;
+}
+
 .lookfor a {
   color: #fff;
   font-family: "Onest", sans-serif;
@@ -1180,7 +1184,7 @@
   align-items: center;
   margin: 0;
   border-radius: 16px;
-  background-color: #ccdcfe;
+  background-color: rgba(50, 118, 255, 20%);
   outline: none;
   border: none;
 }
@@ -1252,6 +1256,10 @@
   cursor: pointer;
 }
 
+.h-join:hover {
+  background-color: #1d2635;
+}
+
 .h-join a {
   font-family: "Onest", sans-serif;
   font-weight: 500;
@@ -1299,7 +1307,8 @@
 
 .h-back-btn:hover {
   border: 1px solid;
-  border-color: rgba(183, 191, 213, 0.2);
+  border-color: rgba(183, 191, 213, 20%);
+  background-color: rgba(50, 118, 255, 20%);
 }
 
 .h-next-btn {
@@ -1318,5 +1327,6 @@
 
 .h-next-btn:hover {
   border: 1px solid;
-  border-color: rgba(183, 191, 213, 0.2);
+  border-color: rgba(183, 191, 213, 20%);
+  background-color: rgba(50, 118, 255, 20%);
 }

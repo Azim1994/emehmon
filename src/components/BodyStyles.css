@@ -491,7 +491,8 @@
 
 .back-btn:hover {
   border: 1px solid;
-  border-color: rgba(183, 191, 213, 0.2);
+  border-color: rgba(183, 191, 213, 20%);
+  background-color: rgba(50, 118, 255, 20%);
 }
 
 .next-btn {
@@ -510,6 +511,7 @@
 
 .next-btn:hover {
   border: 1px solid;
-  border-color: rgba(183, 191, 213, 0.2);
+  border-color: rgba(183, 191, 213, 20%);
+  background-color: rgba(50, 118, 255, 20%);
 }
 /* bodybox14 style end */
