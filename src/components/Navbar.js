@@ -44,7 +44,7 @@ function Navbar() {
             </select>
           </div>
           <div className="btn3">
-            <img src="images/loginlogo.png" alt="signinlogo"></img>
+            <img src="images/user-circle.svg" alt="signinlogo"></img>
             <button className="login">Войти</button>
           </div>
         </div>

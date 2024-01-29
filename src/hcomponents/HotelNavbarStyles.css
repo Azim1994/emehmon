@@ -1,141 +1,149 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Onest:wght@100;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Onest:wght@100;400;500&display=swap");
 
-.hnavbarbox{
-    width: 100%;
-    height: 90px;
-    left: 0;
-    position: absolute;
-    display: flex;
-    margin: 0;
-    background-color: rgba(255, 255, 255);
-}
-
-.hnavbar{
-    width: 1200px;
-    height: 90px;
-    position: relative;
-    display: flex;
-    margin: 0 auto;
-    align-items: center;
+.hnavbarbox {
+  width: 100%;
+  height: 90px;
+  left: 0;
+  position: absolute;
+  display: flex;
+  margin: 0;
+  background-color: rgba(255, 255, 255);
 }
 
-.hlogo-header{
-    width: 184px;
-    height: 48px;
-    margin: 0;
+.hnavbar {
+  width: 1200px;
+  height: 90px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: 9999;
 }
 
-                                /* h-nav-menu1 style start  */
-.hnav-menu1{
-    display: flex;
-    position: absolute;
-    left: 353px;
-    white-space: nowrap;
-    width: 366px;
-    height: 22px;
-    gap: 24px;
-    list-style: none;
-    padding: 0;
+.hlogo-header {
+  width: 184px;
+  height: 48px;
+  margin: 0 auto;
+  position: absolute;
+  cursor: pointer;
+  display: flex;
 }
 
-.hnav-menu1 li a{
-    color: #232E40;
-    font-family: 'Onest', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 22.4px;
-}
-                                /* h-nav-menu1 style end  */
-                                /* h-nav-menu2 style start  */
-.hnav-menu2{
-    display: flex;
-    position: absolute;
-    right: 0;
-    white-space: nowrap;
-    width: 330px;
-    height: 58px;
-    gap: 24px;
-    padding: 0;
-    align-items: center;
-    text-align: left;
+/* h-nav-menu1 style start  */
+.hnav-menu1 {
+  display: flex;
+  position: absolute;
+  left: 353px;
+  white-space: nowrap;
+  width: 366px;
+  height: 22px;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
 }
 
-.currency{
-    width: 60px;
-    height: 22px;
-    position: relative;
-    padding: 0;
-    cursor: pointer;
-    display: flex;
+.hnav-menu1 li a {
+  color: #232e40;
+  font-family: "Onest", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22.4px;
 }
 
-.currency select{
-    border: none;
-    color: #232E40;
-    font-family: 'Onest', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 22.4px;
+.hnav-menu1 li a:hover {
+  color: #3276ff;
+}
+/* h-nav-menu1 style end  */
+/* h-nav-menu2 style start  */
+.hnav-menu2 {
+  display: flex;
+  position: absolute;
+  right: 0;
+  white-space: nowrap;
+  width: 330px;
+  height: 58px;
+  gap: 24px;
+  padding: 0;
+  align-items: center;
+  text-align: left;
 }
 
-.language{
-    width: 100px;
-    height: 22px;
-    position: relative;
-    padding: 0;
-    cursor: pointer;
+.currency {
+  width: 60px;
+  height: 22px;
+  position: relative;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
 }
 
-.language select{
-    border: none;
-    color: #232E40;
-    font-family: 'Onest', sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 22.4px;
+.currency select {
+  border: none;
+  color: #232e40;
+  font-family: "Onest", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22.4px;
 }
 
-.hbtn2{
-    padding: 0;
-    border: none;
-    width: 81px;
-    height: 22px;
-    display: flex;
-    align-items: center;
-    background: none;
-    cursor: pointer;
+.currency select:hover {
+  color: #3276ff;
 }
 
-.h-btn3{
-    background: #232E40;
-    background-size: 30%;
-    font-size: 16px;
-    height: 58px;
-    width: 129px;
-    border-radius: 16px;
-    font-size: 16px;
-    font-weight: 500;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
+.language {
+  width: 100px;
+  height: 22px;
+  position: relative;
+  padding: 0;
+  cursor: pointer;
 }
 
-.h-btn3 img{
-    margin: 0;
-    width: 20px;
-    height: 20px;
-    left: 26px;
-    position: relative;
+.language select {
+  border: none;
+  color: #232e40;
+  font-family: "Onest", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22.4px;
 }
 
-.h-login{
-    background: none;
-    border: none;
-    color: #fff;
-    font-family: 'Onest', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 25.6px;
+.language select:hover {
+  color: #3276ff;
 }
-                            /* h-nav-menu2 style end  */
+
+.h-btn3 {
+  background: #232e40;
+  background-size: 30%;
+  font-size: 16px;
+  height: 58px;
+  width: 129px;
+  border-radius: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.h-btn3:hover {
+  background-color: #3276ff;
+}
+
+.h-btn3 img {
+  margin: 0;
+  width: 20px;
+  height: 20px;
+  left: 24px;
+  position: relative;
+}
+
+.h-login {
+  background: none;
+  border: none;
+  color: #fff;
+  font-family: "Onest", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25.6px;
+}
+/* h-nav-menu2 style end  */

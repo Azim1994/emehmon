@@ -15,11 +15,7 @@ function HotelNavbar() {
         <div className="hnavbar">
           <div className="hlogo-header">
             <a href="/">
-              <img
-                className="logo-header"
-                src="images/logofooter.jpg"
-                alt="logoheader"
-              />
+              <img src="images/logofooter.svg" alt="logoheader" />
             </a>
           </div>
           <ul className="hnav-menu1">
@@ -45,7 +41,7 @@ function HotelNavbar() {
               </select>
             </div>
             <div className="h-btn3">
-              <img src="images/loginlogo.png" alt="signinlogo"></img>
+              <img src="images/user-circle.svg" alt="signinlogo"></img>
               <button className="h-login">Войти</button>
             </div>
           </div>
