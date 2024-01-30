@@ -216,6 +216,11 @@
   height: 150px;
 }
 
+.image4 img {
+  background-color: rgba(24, 28, 50, 20%);
+  border-radius: 16px;
+}
+
 .hgallery-btn {
   position: absolute;
   width: 109px;

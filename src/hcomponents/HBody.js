@@ -144,16 +144,16 @@ function HBody() {
         <div className="gallery-box">
           <div className="hgallery" onclick="changeImageOnClick(event)">
             <div className="image1">
-              <img src="images/hgallery1.png" id="mainImg" alt="hgallery"></img>
+              <img src="images/hgallery1.svg" id="mainImg" alt="hgallery"></img>
             </div>
             <div className="image2">
-              <img src="images/hgallery2.png" id="thumb1" alt="hgallery"></img>
+              <img src="images/hgallery2.svg" id="thumb1" alt="hgallery"></img>
             </div>
             <div className="image2">
-              <img src="images/hgallery3.png" id="thumb2" alt="hgallery"></img>
+              <img src="images/hgallery3.svg" id="thumb2" alt="hgallery"></img>
             </div>
             <div className="image4">
-              <img src="images/hgallery4.png" alt="hgallery"></img>
+              <img src="images/hgallery4.svg" alt="hgallery"></img>
               <button className="hgallery-btn">
                 <img
                   src="images/eye.svg"
