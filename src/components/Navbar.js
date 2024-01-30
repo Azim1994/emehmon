@@ -1,7 +1,6 @@
 import "./NavbarStyles.css";
 import "semantic-ui-css/semantic.min.css";
 import "bootstrap/dist/css/bootstrap.css";
-import { Container, Row, Col, ResponsiveEmbed } from "react-bootstrap";
 
 function Navbar() {
   const items = [
