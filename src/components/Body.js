@@ -1,6 +1,7 @@
 import "./BodyStyles.css";
 import "./BodySwiper";
 import Bodyslider from "./BodySwiper";
+import React from "react";
 
 function Body() {
   // window.onload=function(){
@@ -142,8 +143,8 @@ function Body() {
             ))}
           </div>
         </div>
-        {/* bodybox9 start */}
       </div>
+      {/* bodybox9 start */}
       <div className="bodybox9">
         <div className="bodybox10">
           <h1>Дома, которые нравятся гостям</h1>
@@ -172,6 +173,7 @@ function Body() {
           </div>
         </div>
       </div>
+
       {/* bodybox12 start */}
       <div className="bodybox12">
         <img src="images/body3.svg" alt="body3"></img>

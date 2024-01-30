@@ -17,6 +17,7 @@
   display: flex;
   align-items: center;
   z-index: 9999;
+  left: 25px;
 }
 
 .hlogo-header {
@@ -38,7 +39,9 @@
   height: 22px;
   gap: 24px;
   list-style: none;
+  align-items: center;
   padding: 0;
+  margin: 0;
 }
 
 .hnav-menu1 li a {
@@ -47,6 +50,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 22.4px;
+  text-decoration: none;
 }
 
 .hnav-menu1 li a:hover {

@@ -161,6 +161,7 @@
   width: 486px;
   height: 152px;
   position: relative;
+  display: inherit;
 }
 
 .number {
@@ -185,7 +186,8 @@
   color: #232e40;
   line-height: 21.6px;
   position: relative;
-  top: -10px;
+  margin: 0;
+  top: 12px;
 }
 
 .bodybox6 p {
@@ -195,7 +197,7 @@
   color: #777e90;
   line-height: 24px;
   position: relative;
-  top: -16px;
+  top: 12px;
 }
 /* bodybox1 style end */
 /* bodybox9 style start */
@@ -370,6 +372,7 @@
   line-height: 25.6px;
   letter-spacing: 2%;
   width: 172px;
+  text-decoration: none;
 }
 
 .reserve:hover {
@@ -448,6 +451,7 @@
   font-size: 16px;
   line-height: 25.6px;
   color: white;
+  text-decoration: none;
 }
 /* bodybox12 style end */
 /* bodybox14 style start */

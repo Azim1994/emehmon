@@ -16,7 +16,7 @@
 .bodybox17 {
   width: 1506px;
   height: 425px;
-  left: 120px;
+  left: 177px;
   top: 80px;
   position: relative;
   display: flex;
@@ -103,6 +103,7 @@
   width: 1200px;
   height: 238px;
   top: 60px;
+  left: 57px;
   position: absolute;
   display: flex;
 }
@@ -194,7 +195,6 @@
   font-size: 15px;
   line-height: 19.12px;
   color: #777e90;
-  text-decoration: none;
   cursor: pointer;
 }
 
@@ -228,7 +228,6 @@
   font-size: 15px;
   line-height: 19.12px;
   color: #777e90;
-  text-decoration: none;
   cursor: pointer;
 }
 
@@ -262,7 +261,6 @@
   font-size: 15px;
   line-height: 19.12px;
   color: #777e90;
-  text-decoration: none;
   cursor: pointer;
 }
 

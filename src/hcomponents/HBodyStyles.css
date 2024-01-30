@@ -42,6 +42,7 @@
   font-size: 15px;
   line-height: 24px;
   color: #232e40;
+  text-decoration: none;
 }
 
 /* ul.breadcrumb li+li:before {
@@ -54,8 +55,8 @@
   width: 16px;
   height: 16px;
   position: relative;
-  top: 4px;
   left: 12px;
+  top: -1px;
 }
 
 .current-page {
@@ -230,6 +231,10 @@
   border: 1px solid rgba(24, 28, 50, 0.2);
 }
 
+.hgallery-btn:hover {
+  background-color: rgba(50, 118, 255, 80%);
+}
+
 .hgallery-btn a {
   font-family: "Onest", sans-serif;
   font-weight: 500;
@@ -240,6 +245,7 @@
   left: 56px;
   position: absolute;
   margin: 0;
+  text-decoration: none;
 }
 
 .hgallery-icon {
@@ -507,6 +513,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 25.6px;
+  text-decoration: none;
 }
 /* form box style end */
 
@@ -541,6 +548,10 @@
   border: 1px solid rgba(24, 28, 50, 20%);
 }
 
+.map-btn:hover {
+  background-color: rgba(50, 118, 255, 80%);
+}
+
 .map-btn a {
   width: 148px;
   height: 26px;
@@ -551,6 +562,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 25.6px;
+  text-decoration: none;
 }
 
 .map-icon {
@@ -933,7 +945,7 @@
   right: 0;
   margin: 0;
   position: absolute;
-  top: 2px;
+  top: 0;
 }
 
 .feedback-box {
@@ -997,8 +1009,8 @@
 }
 
 .feed-avatar {
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   position: absolute;
   margin: 0;
   display: flex;
@@ -1014,7 +1026,7 @@
   width: 100px;
   height: 15px;
   left: 68px;
-  top: 0;
+  top: 1px;
   text-wrap: nowrap;
 }
 
@@ -1024,7 +1036,8 @@
   margin: 0;
   position: absolute;
   bottom: 0;
-  left: 64px;
+  top: 23px;
+  left: 68px;
 }
 
 .feedback-border {
@@ -1189,6 +1202,10 @@
   border: none;
 }
 
+.h-reserve:hover {
+  background-color: #d8dce4;
+}
+
 .h-reserve a {
   color: #3276ff;
   font-family: "Onest", sans-serif;
@@ -1197,6 +1214,11 @@
   line-height: 25.6px;
   letter-spacing: 2%;
   width: 172px;
+  text-decoration: none;
+}
+
+.h-reserve a:hover {
+  color: #1d2635;
 }
 
 .h-bodybox12 {
@@ -1266,6 +1288,7 @@
   font-size: 16px;
   line-height: 25.6px;
   color: white;
+  text-decoration: none;
 }
 
 .h-bodybox14 {
