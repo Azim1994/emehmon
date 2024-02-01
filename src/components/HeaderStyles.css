@@ -1,10 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Onest:wght@100;400;500&display=swap");
 @import url("https://fonts.cdnfonts.com/css/forma-djr-banner");
 
+.header-img {
+  width: 100%;
+  height: 847px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url(/public/images/header-img.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .header {
+  width: 1440px;
   height: 847px;
   top: 0;
-  margin: 0;
+  margin: 0 auto;
   position: relative;
 }
 /* header-box1-4 style start */

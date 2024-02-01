@@ -1,36 +1,24 @@
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import { Container } from "@mui/material";
-import Box from "@mui/material/Box";
 import Body from "../components/Body";
 import Footer from "../components/Footer";
 
 function Home() {
   return (
     <>
-      <Box
-        sx={{
-          height: "847px",
-          backgroundImage: "url(./images/header.png)",
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-          backgroundAttachment: "fixed",
+      <Container
+        maxWidth={false}
+        style={{
+          height: "5200px",
+          width: "1440px",
         }}
       >
-        <Container
-          maxWidth={false}
-          style={{
-            height: "5200px",
-            width: "1440px",
-          }}
-        >
-          <Navbar />
-          <Header />
-          <Body />
-          <Footer />
-        </Container>
-      </Box>
+        <Navbar />
+        <Header />
+        <Body />
+        <Footer />
+      </Container>
     </>
   );
 }
