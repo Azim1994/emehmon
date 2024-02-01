@@ -162,9 +162,9 @@ function Body() {
                   <p>{card.description}</p>
                 </div>
                 <div className="cardbar2">
-                  <button className="reserve">
-                    <a href="/">Забронировать</a>
-                  </button>
+                  <a href="/">
+                    <button className="reserve">Забронировать</button>
+                  </a>
                   <h2>{card.value}</h2>
                   <h4>/ночь</h4>
                 </div>

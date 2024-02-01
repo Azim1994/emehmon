@@ -358,30 +358,32 @@
   display: flex;
   align-items: center;
   margin: 0;
+  padding: 0;
+  text-align: center;
   border-radius: 16px;
   background-color: rgba(50, 118, 255, 20%);
+  color: #3276ff;
   outline: none;
   border: none;
+  padding: 24px;
 }
 
-.reserve a {
-  color: #3276ff;
+.cardbar2 a {
   font-family: "Onest", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 25.6px;
   letter-spacing: 2%;
   width: 172px;
+  margin: 0;
   text-decoration: none;
 }
 
 .reserve:hover {
   background-color: #232e40;
+  color: #fff;
 }
 
-.reserve a:hover {
-  color: #fafafa;
-}
 /* bodybox9 style end */
 /* bodybox12 style start */
 .bodybox12 {

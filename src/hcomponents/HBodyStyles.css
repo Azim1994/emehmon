@@ -1201,29 +1201,30 @@
   display: flex;
   align-items: center;
   margin: 0;
+  padding: 0;
+  text-align: center;
   border-radius: 16px;
   background-color: rgba(50, 118, 255, 20%);
+  color: #3276ff;
   outline: none;
   border: none;
+  padding: 24px;
 }
 
 .h-reserve:hover {
-  background-color: #d8dce4;
+  background-color: #232e40;
+  color: #fff;
 }
 
-.h-reserve a {
-  color: #3276ff;
+.h-cardbar2 a {
   font-family: "Onest", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 25.6px;
   letter-spacing: 2%;
   width: 172px;
+  margin: 0;
   text-decoration: none;
-}
-
-.h-reserve a:hover {
-  color: #1d2635;
 }
 
 .h-bodybox12 {
